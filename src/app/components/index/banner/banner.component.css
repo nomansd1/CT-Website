@@ -1,0 +1,6 @@
+.hero__section {
+    background-image: url('../../../../assets/hero-section.png');
+    background-position: top center;
+    height: 100vh;
+    margin-top: -60px;
+}

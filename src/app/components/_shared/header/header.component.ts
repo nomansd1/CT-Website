@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, HostListener, ElementRef, Renderer2 } from '@angular/core';
 
 @Component({
   selector: 'app-header',
@@ -7,8 +7,21 @@ import { Component } from '@angular/core';
 })
 export class HeaderComponent {
   
-  navbar = false
+  navbar = true
+  header = false;
 
+  constructor(private elementRef: ElementRef, private renderer: Renderer2) {}
+
+  @HostListener('window:scroll', [])
+  onWindowScroll() {
+    const scrollHeight = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+    if (scrollHeight > 400) {
+      this.header = true;
+    }
+    else {
+      this.header = false;
+    }
+  }
 
   toggleNavbar() {
     this.navbar = !this.navbar;
