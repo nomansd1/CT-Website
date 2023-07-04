@@ -1,0 +1,20 @@
+<section class="grid max-w-screen-xl lg:grid-cols-12 mx-auto px-4 py-8 lg:py-16">
+    <div class="lg:col-span-6 justify-center items-center grid">
+        <h1 class="mb-4 text-[#636468] text-4xl font-semibold uppercase tracking-tight leading-none md:text-6xl xl:text-8xl">our edges</h1>
+    </div>
+    <div class="lg:col-span-6">
+        <section class="py-8">
+            <div class="container mx-auto">
+              <div class="flex flex-wrap justify-center">
+                <!-- edges Tile 1 -->
+                <div *ngFor="let tile of edgeGridTiles" class="w-1/1 lg:w-1/2  px-4 mb-8 text-center">
+                    <div class="p-7 text-center">
+                        <span class="text-7xl font-bold text-[#22B8EE]">{{ tile.stats }}+</span>
+                        <p class="mt-2 text-gray-800 font-semibold"> {{ tile.title }} </p>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </section>   
+    </div>
+</section>
