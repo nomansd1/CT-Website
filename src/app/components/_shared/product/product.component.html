@@ -1,0 +1,15 @@
+<section class="bg-white">
+    <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-4 xl:gap-0 lg:py-16 lg:grid-cols-12 justify-center">
+        <div [ngClass]="ourProducts.rowReverse? 'order-2' : 'order-1'" class=" lg:col-span-6 place-self-center">
+            <img class="w-[300px]" [src]="ourProducts.imgSource" alt="">
+            <p class="max-w-xl mb-2 text-gray-500 text-md my-3">{{ ourProducts.desc }}.</p> 
+            <div class="flex">
+                <button [ngClass]="[ourProducts.btnColor, ourProducts.btnHover]" type="button" class="mt-2 px-5 py-2.5 text-sm font-medium text-white focus:outline-none rounded-lg text-center">Schedule a Demo</button>
+                <button [ngClass]="[ourProducts.textColor, ourProducts.borderColor]" type="button" class="mt-2 px-5 py-2.5 text-sm font-medium hover:ring-2 focus:outline-none rounded-lg text-center ml-2">Read More</button>
+            </div>
+        </div>
+        <div [ngClass]="ourProducts.rowReverse? 'order-1' : 'order-2'" class="lg:mt-0 lg:col-span-6 lg:flex justify-center">
+            <img class="max-w-sm" [src]="ourProducts.gridImgSource" alt="mockup">
+        </div>                
+    </div>
+</section>

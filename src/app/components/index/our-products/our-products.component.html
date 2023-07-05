@@ -1,0 +1,12 @@
+<section class="bg-white">
+    <div class="py-8 px-4 mx-auto  sm:py-16 lg:px-6">
+        <div class="mb-8">
+            <h2 class="mb-4 text-4xl text-center tracking-tight font-extrabold text-gray-900">OUR SPECIALITY PRODUCTS PORTFOLIO</h2>
+        </div>
+        <div class="text-center">
+            <!-- PRODUCTS -->
+            <app-product *ngFor="let product of products; let i = index;" [ourProducts]="products[i]"></app-product>
+            <button type="button" class="mt-2 px-5 py-2.5 text-sm font-medium text-white bg-[#22B8EE] hover:bg-[#1B8FBF] focus:outline-none rounded-lg text-center">See More Products</button>
+        </div>
+    </div>
+  </section>

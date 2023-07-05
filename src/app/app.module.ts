@@ -8,6 +8,9 @@ import { AboutComponent } from './components/index/about/about.component';
 import { OurServicesComponent } from './components/index/our-services/our-services.component';
 import { OurEdgesComponent } from './components/index/our-edges/our-edges.component';
 import { AppsComponent } from './components/index/apps/apps.component';
+import { OurProductsComponent } from './components/index/our-products/our-products.component';
+import { ProductComponent } from './components/_shared/product/product.component';
+import { OurCustomersComponent } from './components/index/our-customers/our-customers.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +20,10 @@ import { AppsComponent } from './components/index/apps/apps.component';
     AboutComponent,
     OurServicesComponent,
     OurEdgesComponent,
-    AppsComponent
+    AppsComponent,
+    OurProductsComponent,
+    ProductComponent,
+    OurCustomersComponent
   ],
   imports: [
     BrowserModule
