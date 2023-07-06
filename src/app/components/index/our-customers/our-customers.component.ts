@@ -6,5 +6,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./our-customers.component.css']
 })
 export class OurCustomersComponent {
-
+  customerGridTiles =[
+    { imgSource: '../../../../assets/c1.png' },
+    { imgSource: '../../../../assets/c2.png' },
+    { imgSource: '../../../../assets/c3.png' },
+    { imgSource: '../../../../assets/c4.png' },
+    { imgSource: '../../../../assets/c5.png' },
+    { imgSource: '../../../../assets/c6.png' },
+    { imgSource: '../../../../assets/c7.png' },
+    { imgSource: '../../../../assets/c8.png' },
+    { imgSource: '../../../../assets/c9.png' },
+    { imgSource: '../../../../assets/c10.png' },
+  ]
 }

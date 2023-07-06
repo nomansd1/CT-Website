@@ -6,5 +6,23 @@ import { Component } from '@angular/core';
   styleUrls: ['./footer.component.css']
 })
 export class FooterComponent {
-
+  quickLinks = [
+    { title: 'About', url: '' },
+    { title: 'Softwares', url: '' },
+    { title: 'Careers', url: '' },
+    { title: 'Become a partner', url: '' },
+    { title: "FAQ's", url: '' },
+  ]
+  contactInfo = [
+    { label: 'PAK:', val: '+92 2134971995' },
+    { label: 'KSA', val: '+966 1146 6664 101' },
+    { label: 'UAE:', val: '+971 55 548 8093' },
+    { label: 'Email:', val: 'sales@cloudtenants.com' },
+  ]
+  officeInfo = [
+    { val: 'Suit No B-5/4, FL-9/6 (Junaid Plaza),' },
+    { val: 'Gulshan-E-Iqbal Block 6,' },
+    { val: 'Main Rashid Minhas Road,' },
+    { val: 'Karachi-75300, Pakistan.' },
+  ]
 }

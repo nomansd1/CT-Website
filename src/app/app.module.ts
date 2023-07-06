@@ -11,6 +11,7 @@ import { AppsComponent } from './components/index/apps/apps.component';
 import { OurProductsComponent } from './components/index/our-products/our-products.component';
 import { ProductComponent } from './components/_shared/product/product.component';
 import { OurCustomersComponent } from './components/index/our-customers/our-customers.component';
+import { FooterComponent } from './components/_shared/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { OurCustomersComponent } from './components/index/our-customers/our-cust
     AppsComponent,
     OurProductsComponent,
     ProductComponent,
-    OurCustomersComponent
+    OurCustomersComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule
