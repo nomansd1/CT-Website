@@ -12,6 +12,7 @@ import { OurProductsComponent } from './components/index/our-products/our-produc
 import { ProductComponent } from './components/_shared/product/product.component';
 import { OurCustomersComponent } from './components/index/our-customers/our-customers.component';
 import { FooterComponent } from './components/_shared/footer/footer.component';
+import { IndexLayoutComponent } from './components/index/index-layout/index-layout.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { FooterComponent } from './components/_shared/footer/footer.component';
     OurProductsComponent,
     ProductComponent,
     OurCustomersComponent,
-    FooterComponent
+    FooterComponent,
+    IndexLayoutComponent
   ],
   imports: [
     BrowserModule
