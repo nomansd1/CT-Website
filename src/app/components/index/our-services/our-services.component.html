@@ -4,7 +4,7 @@
             <h2 class="mb-4 text-4xl text-center tracking-tight font-extrabold text-gray-900 dark:text-white">OUR SERVICES</h2>
         </div>
         <div class="space-y-8 justify-center grid md:grid-cols-2 lg:grid-cols-3 md:gap-8 md:space-y-0">
-            <div *ngFor="let tile of servicesGridTiles" (mouseenter)="tile.isHovered = true" (mouseleave)="tile.isHovered = false" class="p-6 text-center bg-white hover:bg-[#22B8EE] max-w-sm">
+            <div *ngFor="let tile of servicesGridTiles" (mouseenter)="tile.isHovered = true" (mouseleave)="tile.isHovered = false" class="p-6 text-center bg-white hover:bg-[#22B8EE] max-w-sm rounded-lg">
                 <div class="flex justify-center items-center mb-4 w-20 h-20 mx-auto">
                     <img [src]="tile.isHovered ? tile.hoverImgSource : tile.imgSource" alt="">
                 </div>
