@@ -10,13 +10,13 @@ export class HeaderComponent {
   navbar = true
   header = false;
   navLinks = [
-    { title: 'Home', url: '/' },
-    { title: 'About', url: '/' },
+    { title: 'Home', url: '' },
+    { title: 'About', url: 'about' },
     { title: 'Services Network', url: '/' },
     { title: 'Softwares', url: '/' },
     { title: 'Customers', url: '/' },
     { title: 'Alliances', url: '/' },
-    { title: 'Careers', url: '/' },
+    { title: 'Careers', url: 'careers' },
   ]
 
 

@@ -13,6 +13,15 @@ import { ProductComponent } from './components/_shared/product/product.component
 import { OurCustomersComponent } from './components/index/our-customers/our-customers.component';
 import { FooterComponent } from './components/_shared/footer/footer.component';
 import { IndexLayoutComponent } from './components/index/index-layout/index-layout.component';
+import { AppRoutingModule } from './app-routing.module';
+import { CareersLayoutComponent } from './components/careers/careers-layout/careers-layout.component';
+import { AboutLayoutComponent } from './components/about/about-layout/about-layout.component';
+import { CareerBannerComponent } from './components/careers/career-banner/career-banner.component';
+import { VacanciesComponent } from './components/careers/vacancies/vacancies.component';
+import { AboutBannerComponent } from './components/about/about-banner/about-banner.component';
+import { AboutInfoComponent } from './components/about/about-info/about-info.component';
+import { OurValuesComponent } from './components/about/our-values/our-values.component';
+import { OurMissionComponent } from './components/about/our-mission/our-mission.component';
 
 @NgModule({
   declarations: [
@@ -27,10 +36,19 @@ import { IndexLayoutComponent } from './components/index/index-layout/index-layo
     ProductComponent,
     OurCustomersComponent,
     FooterComponent,
-    IndexLayoutComponent
+    IndexLayoutComponent,
+    CareersLayoutComponent,
+    AboutLayoutComponent,
+    CareerBannerComponent,
+    VacanciesComponent,
+    AboutBannerComponent,
+    AboutInfoComponent,
+    OurValuesComponent,
+    OurMissionComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
