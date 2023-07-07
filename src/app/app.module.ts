@@ -1,5 +1,6 @@
-import { NgModule } from '@angular/core';
+import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { CountUpModule } from 'ngx-countup';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/_shared/header/header.component';
@@ -48,9 +49,11 @@ import { OurMissionComponent } from './components/about/our-mission/our-mission.
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    CountUpModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
 export class AppModule { }

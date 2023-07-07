@@ -16,7 +16,8 @@ export class OurProductsComponent {
       textColor: 'text-[#0A9AC8]',
       borderColor: 'hover:ring-[#0A9AC8]',
       rowReverse: false,
-      flexEnd: true
+      flexEnd: true,
+      navArrow: true,
     },
     { 
       desc: 'WMS Extended is a highly Efficient & Effective software to manage Inventory and Stock movement in the Warehouse. The Software is designed to manage extensive operations of Warehouse, including Inventory Management, Storage, and Movement of goods.', 
@@ -27,7 +28,8 @@ export class OurProductsComponent {
       textColor: 'text-[#048CA9]',
       borderColor: 'hover:ring-[#048CA9]',
       rowReverse: true,
-      flexEnd: false
+      flexEnd: false,
+      navArrow: true,
     },
     { 
       desc: 'Leading Point of Sale Solution for Small Retail Shops to Chain of Supermarkets. It serves as the Central Hub for processing Sales, Managing Inventory, and providing an overall Seamless Customer Experience. ', 
@@ -38,7 +40,8 @@ export class OurProductsComponent {
       textColor: 'text-[#FB8C00]',
       borderColor: 'hover:ring-[#FB8C00]',
       rowReverse: false,
-      flexEnd: true
+      flexEnd: true,
+      navArrow: true,
     },
     { 
       desc: 'Leading Point of Sale Solution for Food Kiosk to Fine Dining Restaurants Chain. POS Select, is designed specifically for the food service industry to manage Restaurant Operations, Streamline Order Processing, and Enhancing Overall Dining Experience. ', 
@@ -49,7 +52,8 @@ export class OurProductsComponent {
       textColor: 'text-[#769F42]',
       borderColor: 'hover:ring-[#769F42]',
       rowReverse: true,
-      flexEnd: false
+      flexEnd: false,
+      navArrow: false,
     }
   ]
 }

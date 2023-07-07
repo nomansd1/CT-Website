@@ -8,11 +8,11 @@
                 <button [ngClass]="[ourProducts.textColor, ourProducts.borderColor]" type="button" class="mt-2 px-5 py-2.5 text-sm font-medium hover:ring-2 focus:outline-none rounded-lg text-center ml-2">Read More</button>
             </div>
         </div>
-        <div [ngClass]="[ourProducts.rowReverse? 'order-1' : 'order-2', ourProducts.flexEnd? 'justify-end' : '']" class="lg:mt-0 lg:col-span-6 lg:flex my-2 md:my-0">
+        <div [ngClass]="[ourProducts.rowReverse? 'order-1' : 'order-2', ourProducts.flexEnd? 'justify-end' : '']" class="lg:mt-0 lg:col-span-6 lg:flex my-3">
             <img class="max-w-xs md:max-w-sm" [src]="ourProducts.gridImgSource" alt="mockup">
         </div>                
     </div>
-    <div class="flex justify-center items-center">
+    <div *ngIf="ourProducts.navArrow === true" class="flex justify-center items-center">
         <img class="w-[150px] h-[150px] transform rotate-45" src="../../../../assets/productarrow.png" alt="">
     </div>
 </section>

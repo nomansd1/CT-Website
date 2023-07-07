@@ -49,7 +49,7 @@ export class AppsComponent {
       imgSource: '../../../../assets/serv5.png',
     },
     { 
-      title: 'sugar cane grower tracking app', 
+      title: 'cane procurement staff tracking app', 
       imgSource: '../../../../assets/serv5.png',
     }
   ]
