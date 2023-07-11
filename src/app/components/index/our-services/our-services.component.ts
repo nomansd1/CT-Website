@@ -40,8 +40,8 @@ export class OurServicesComponent {
     },
     { 
       title: 'customized software development', 
-      imgSource: '../../../../assets/serv5.png', 
-      hoverImgSource: '../../../../assets/servhov5.png',
+      imgSource: '../../../../assets/serv6.png', 
+      hoverImgSource: '../../../../assets/servhov6.png',
       isHovered: false 
     }
   ]
