@@ -23,6 +23,12 @@ import { AboutBannerComponent } from './components/about/about-banner/about-bann
 import { AboutInfoComponent } from './components/about/about-info/about-info.component';
 import { OurValuesComponent } from './components/about/our-values/our-values.component';
 import { OurMissionComponent } from './components/about/our-mission/our-mission.component';
+import { DemoLayoutComponent } from './components/demo/demo-layout/demo-layout.component';
+import { DemoBannerComponent } from './components/demo/demo-banner/demo-banner.component';
+import { DemoFormComponent } from './components/demo/demo-form/demo-form.component';
+import { TechnologyLayoutComponent } from './components/technologies/technology-layout/technology-layout.component';
+import { TechnologyBannerComponent } from './components/technologies/technology-banner/technology-banner.component';
+import { TechGridComponent } from './components/technologies/tech-grid/tech-grid.component';
 
 @NgModule({
   declarations: [
@@ -45,12 +51,18 @@ import { OurMissionComponent } from './components/about/our-mission/our-mission.
     AboutBannerComponent,
     AboutInfoComponent,
     OurValuesComponent,
-    OurMissionComponent
+    OurMissionComponent,
+    DemoLayoutComponent,
+    DemoBannerComponent,
+    DemoFormComponent,
+    TechnologyLayoutComponent,
+    TechnologyBannerComponent,
+    TechGridComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    CountUpModule
+    CountUpModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

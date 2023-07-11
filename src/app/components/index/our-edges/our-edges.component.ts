@@ -24,4 +24,5 @@ export class OurEdgesComponent  {
     { title: 'e.suite Modules for S&D Business Optimization', stats: 7 },
     { title: 'ERP Modules Suite', stats: 6 },
   ]
+
 }
