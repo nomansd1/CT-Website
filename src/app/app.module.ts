@@ -29,6 +29,9 @@ import { DemoFormComponent } from './components/demo/demo-form/demo-form.compone
 import { TechnologyLayoutComponent } from './components/technologies/technology-layout/technology-layout.component';
 import { TechnologyBannerComponent } from './components/technologies/technology-banner/technology-banner.component';
 import { TechGridComponent } from './components/technologies/tech-grid/tech-grid.component';
+import { PartnerLayoutComponent } from './components/partner/partner-layout/partner-layout.component';
+import { PartnerBannerComponent } from './components/partner/partner-banner/partner-banner.component';
+import { PartnerFormComponent } from './components/partner/partner-form/partner-form.component';
 
 @NgModule({
   declarations: [
@@ -57,7 +60,10 @@ import { TechGridComponent } from './components/technologies/tech-grid/tech-grid
     DemoFormComponent,
     TechnologyLayoutComponent,
     TechnologyBannerComponent,
-    TechGridComponent
+    TechGridComponent,
+    PartnerLayoutComponent,
+    PartnerBannerComponent,
+    PartnerFormComponent
   ],
   imports: [
     BrowserModule,
