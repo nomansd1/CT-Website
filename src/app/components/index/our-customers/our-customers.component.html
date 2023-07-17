@@ -1,17 +1,17 @@
 <section class="bg-[#ECF8FA]">
-    <div class="py-8 px-4 mx-auto  sm:py-16 lg:px-6">
+    <div class="py-8 px-4 mx-auto  sm:py-16 lg:px-6 max-w-screen-xl">
         <div class="mb-8">
             <h2 class="text-4xl text-center tracking-tight font-extrabold text-gray-900">OUR CUSTOMERS</h2>
             <P class="text-lg text-center font-medium text-[#636468]">We are working with amazing companies.</P>
         </div>
-        <marquee behavior="" direction="">
+        <marquee scrollAmount="4" direction="left">
             <div class="grid grid-cols-2 gap-8 text-gray-500 sm:gap-12 md:grid-cols-4 lg:grid-cols-5 dark:text-gray-400">
                 <a href="#" *ngFor="let tile of customerGridTiles1" class="flex justify-center items-center">
                     <img [src]="tile.imgSource" class="h-16" alt="">                     
                 </a>
             </div>
         </marquee>
-        <marquee behavior="" scrollAmount="4" direction="right" style="margin-top: 10px;">
+        <marquee scrollAmount="4" direction="right" style="margin-top: 2rem;">
             <div class="grid grid-cols-2 gap-8 text-gray-500 sm:gap-12 md:grid-cols-4 lg:grid-cols-5 dark:text-gray-400">
                 <a href="#" *ngFor="let tile of customerGridTiles2" class="flex justify-center items-center">
                     <img [src]="tile.imgSource" class="h-16" alt="">                     

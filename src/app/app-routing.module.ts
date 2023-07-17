@@ -6,6 +6,7 @@ import { CareersLayoutComponent } from './components/careers/careers-layout/care
 import { DemoLayoutComponent } from './components/demo/demo-layout/demo-layout.component';
 import { TechnologyLayoutComponent } from './components/technologies/technology-layout/technology-layout.component';
 import { PartnerLayoutComponent } from './components/partner/partner-layout/partner-layout.component';
+import { AlliancesLayoutComponent } from './components/alliances/alliances-layout/alliances-layout.component';
 
 const routes: Routes = [
   { path: '', component: IndexLayoutComponent },
@@ -14,6 +15,7 @@ const routes: Routes = [
   { path: 'demo', component: DemoLayoutComponent },
   { path: 'technologies', component: TechnologyLayoutComponent },
   { path: 'partner', component: PartnerLayoutComponent },
+  { path: 'alliances', component: AlliancesLayoutComponent },
 ];
 
 @NgModule({

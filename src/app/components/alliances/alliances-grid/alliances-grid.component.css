@@ -1,0 +1,7 @@
+.bg__all1 {
+    background: url('../../../../assets/all1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 100vh;
+}

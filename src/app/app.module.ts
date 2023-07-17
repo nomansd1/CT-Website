@@ -32,6 +32,9 @@ import { TechGridComponent } from './components/technologies/tech-grid/tech-grid
 import { PartnerLayoutComponent } from './components/partner/partner-layout/partner-layout.component';
 import { PartnerBannerComponent } from './components/partner/partner-banner/partner-banner.component';
 import { PartnerFormComponent } from './components/partner/partner-form/partner-form.component';
+import { AlliancesBannerComponent } from './components/alliances/alliances-banner/alliances-banner.component';
+import { AlliancesLayoutComponent } from './components/alliances/alliances-layout/alliances-layout.component';
+import { AlliancesGridComponent } from './components/alliances/alliances-grid/alliances-grid.component';
 
 @NgModule({
   declarations: [
@@ -63,7 +66,10 @@ import { PartnerFormComponent } from './components/partner/partner-form/partner-
     TechGridComponent,
     PartnerLayoutComponent,
     PartnerBannerComponent,
-    PartnerFormComponent
+    PartnerFormComponent,
+    AlliancesBannerComponent,
+    AlliancesLayoutComponent,
+    AlliancesGridComponent
   ],
   imports: [
     BrowserModule,

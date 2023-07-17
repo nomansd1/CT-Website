@@ -1,0 +1,7 @@
+.all_banner {
+    background: url('../../../../assets/alliancesbanner.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 100vh;
+}
