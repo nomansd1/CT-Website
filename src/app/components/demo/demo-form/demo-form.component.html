@@ -55,10 +55,17 @@
                         </div>
                     </div>
                     <div class="relative mb-4 w-full" data-te-input-wrapper-init>
-                        <select type="text" id="solutions"
+                        <select 
+                            [disabled]="productName != null"
+                            id="solutions"
                             class="block px-2.5 pb-2.5 pt-4 w-full text-sm text-gray-400 bg-transparent rounded-lg border-2 border-gray-400 focus:ring-0 focus:border-gray-900 peer focus:outline-none"
-                            placeholder=" ">
-                            <option disabled selected hidden value="">Select your desired product(s), e.g: Sales & Distribution, POS, etc  </option>
+                            placeholder=" "
+                            >
+                            <option *ngIf="productName == null ; else defaultoption" disabled selected hidden>Select your desired product(s), e.g: Sales & Distribution, POS, etc  </option>
+                            <ng-template #defaultoption>
+                                <option hidden selected [value]="productName"> {{ productName }} </option>
+                            </ng-template>
+                            <option *ngFor="let options of demoOptions" > {{ options }} </option>
                         </select>
                     </div>
                     <div class="relative mb-4 w-full" data-te-input-wrapper-init>

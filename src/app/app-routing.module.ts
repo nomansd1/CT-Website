@@ -13,6 +13,7 @@ const routes: Routes = [
   { path: 'about', component: AboutLayoutComponent },
   { path: 'careers', component: CareersLayoutComponent },
   { path: 'demo', component: DemoLayoutComponent },
+  { path: 'demo/:productName', component: DemoLayoutComponent },
   { path: 'technologies', component: TechnologyLayoutComponent },
   { path: 'partner', component: PartnerLayoutComponent },
   { path: 'alliances', component: AlliancesLayoutComponent },
