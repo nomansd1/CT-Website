@@ -8,6 +8,16 @@ import { ActivatedRoute } from '@angular/router';
   styleUrls: ['./demo-form.component.css']
 })
 export class DemoFormComponent {
+  
+  name!: string;
+  businessEmail!: string;
+  country!: string;
+  contact!: string;
+  company!: string;
+  industry!: string;
+  solutions!: string;
+  message!: string;
+
   demoOptions = [
     'S&D Next',
     'S&D e-suite',
@@ -31,5 +41,16 @@ export class DemoFormComponent {
       this.productName = params['productName'] || null;
     });
     console.log(this.productName); 
+  }
+
+  submit() {
+    console.log('name', this.name);
+    console.log('b email', this.businessEmail);
+    console.log('country', this.country);
+    console.log('company', this.company);
+    console.log('industry', this.industry);
+    console.log('solutions', this.solutions);
+    console.log('message', this.message);
+    
   }
 }
