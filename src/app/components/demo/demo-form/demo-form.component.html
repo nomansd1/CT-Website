@@ -5,7 +5,7 @@
         </div>
         <div class="bg-transparent flex flex-row-reverse flex-wrap">
             <div class="mb-12 w-full shrink-0 grow-0 basis-auto md:px-3 lg:mb-0 lg:w-1/2 lg:px-6">
-                <form (ngSubmit)="submit()">
+                <form (ngSubmit)="onSubmit()">
                     <div class="flex flex-col md:flex-row gap-4 mb-4 justify-center items-center">
                         <div class="relative w-full">
                             <input type="text" id="name"
@@ -75,18 +75,17 @@
                     <div class="relative mb-4 w-full" data-te-input-wrapper-init>
                         <select
                             [(ngModel)]="solutions"
-                            [value]="solutions"
                             name="solutions" 
                             [disabled]="productName != null"
                             id="solutions"
                             class="block px-2.5 pb-2.5 pt-4 w-full text-sm text-gray-400 bg-transparent rounded-lg border-2 border-gray-400 focus:ring-0 focus:border-gray-900 peer focus:outline-none"
                             placeholder=" "
                             >
-                            <option *ngIf="productName == null ; else defaultoption" [value]="undefined" disabled selected hidden>Select your desired product(s), e.g: Sales & Distribution, POS, etc  </option>
+                            <option *ngIf="productName == null ; else defaultoption" [value]="null" selected hidden>Select your desired product(s), e.g: Sales & Distribution, POS, etc  </option>
                             <ng-template #defaultoption>
                                 <option selected [value]="undefined"> {{ productName }} </option>
                             </ng-template>
-                            <option *ngFor="let options of demoOptions" [value]="options"> {{ options }} </option>
+                            <option *ngFor="let options of demoOptions"> {{ options }} </option>
                         </select>
                     </div>
                     <div class="relative mb-4 w-full" data-te-input-wrapper-init>
