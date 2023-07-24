@@ -1,0 +1,35 @@
+/* The container that hides the overflow and creates the scrolling effect */
+.marquee {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  /* The content to be scrolled */
+  .content {
+    white-space: nowrap; /* Prevent content from wrapping */
+    animation: marquee 20s linear infinite; /* Adjust the animation duration as needed */
+  }
+
+  .content2 {
+    white-space: nowrap; /* Prevent content from wrapping */
+    animation: marquee2 20s linear infinite; /* Adjust the animation duration as needed */
+  }
+  
+  /* Keyframes to create the scrolling effect */
+  @keyframes marquee {
+    from {
+      transform: translateX(100%); /* Start the content outside the container on the right */
+    }
+    to {
+      transform: translateX(-100%); /* Move the content to the left completely outside the container */
+    }
+  }
+
+  @keyframes marquee2 {
+    from {
+      transform: translateX(-100%); /* Start the content outside the container on the right */
+    }
+    to {
+      transform: translateX(100%); /* Move the content to the left completely outside the container */
+    }
+  }

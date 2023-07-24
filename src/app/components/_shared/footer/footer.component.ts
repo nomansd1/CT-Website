@@ -17,10 +17,10 @@ export class FooterComponent {
 
   
   quickLinks = [
-    { title: 'About', url: '' },
+    { title: 'About', url: 'about' },
     { title: 'Softwares', url: '' },
-    { title: 'Careers', url: '' },
-    { title: 'Become a partner', url: '' },
+    { title: 'Careers', url: 'careers' },
+    { title: 'Become a partner', url: 'partner' },
     { title: "FAQ's", url: '' },
   ]
   

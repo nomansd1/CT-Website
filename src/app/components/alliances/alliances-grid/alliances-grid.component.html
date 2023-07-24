@@ -1,14 +1,36 @@
 <section class="bg__all1 h-screen">
     <div class=" px-4 mx-auto max-w-screen-xl  lg:px-6 h-[100vh] grid items-center">
-        <div class=" bg-red-600">
+        <div>
             <h2 class="text-4xl text-center tracking-tight font-extrabold text-gray-900">Memberships</h2>
         </div>
-        <div class="flex justify-between items-center md:grid md:grid-cols-2 mx-auto bg-red-400 w-full">
-            <div class="max-w-xs h-full flex items-center mx-auto">
-                <img src="../../../../assets/member1.png" alt="">
+        <div class="flex justify-between items-center md:grid md:grid-cols-2 mx-auto w-full -mt-48">
+            <div *ngFor="let member of memberships" class="max-w-xs h-full flex items-center mx-auto">
+                <img [src]="member.img" alt="">
             </div>
-            <div class="max-w-xs h-full flex items-center mx-auto">
-                <img src="../../../../assets/member2.png" alt="">
+        </div>
+    </div>
+  </section>
+  <section class="h-screen">
+    <div class=" px-4 mx-auto max-w-screen-xl  lg:px-6 h-[100vh] grid items-center">
+        <div>
+            <h2 class="text-4xl text-center tracking-tight font-extrabold text-gray-900">Partners</h2>
+        </div>
+        <div class="flex justify-between items-center md:grid md:grid-cols-2 mx-auto w-full -mt-48">
+            <div *ngFor="let partner of partners" class="max-w-xs h-full flex items-center mx-auto">
+                <img [src]="partner.img" alt="">
+            </div>
+        </div>
+    </div>
+  </section>
+  <section class="bg__all2 h-screen">
+    <div class=" px-4 mx-auto max-w-screen-xl  lg:px-6 h-[100vh] grid items-center">
+        <div>
+            <h2 class="text-4xl text-center tracking-tight font-extrabold text-gray-900">Joint Ventures</h2>
+        </div>
+        <div class="flex justify-between items-center md:grid md:grid-cols-2 mx-auto w-full -mt-48">
+            <div *ngFor="let venture of ventures" class="max-w-xs h-full flex flex-col items-center mx-auto">
+                <h2 class="text-2xl font-semibold capitalize text-center mb-3"> {{ venture.title }} </h2>
+                <img [src]="venture.img" alt="">
             </div>
         </div>
     </div>

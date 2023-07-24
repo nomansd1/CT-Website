@@ -15,7 +15,7 @@ export class HeaderComponent {
     { title: 'Services Network', url: '/' },
     { title: 'Softwares', url: '/' },
     { title: 'Customers', url: '/' },
-    { title: 'Alliances', url: '/' },
+    { title: 'Alliances', url: 'alliances' },
     { title: 'Careers', url: 'careers' },
   ]
 

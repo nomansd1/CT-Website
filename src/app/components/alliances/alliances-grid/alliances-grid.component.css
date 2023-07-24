@@ -1,7 +1,11 @@
-.bg__all1 {
+.bg__all1, .bg__all2 {
     background: url('../../../../assets/all1.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top center;
     height: 100vh;
+}
+
+.bg__all2 {
+    background: url('../../../../assets/all2.png');
 }
