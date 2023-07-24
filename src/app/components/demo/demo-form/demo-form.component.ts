@@ -66,12 +66,12 @@ export class DemoFormComponent {
     const formData = {
       CompanyCode: 61,
       OfficeCode: 100061,
-      Subject: 'Testing Email API',
-      CC: 'erumazam3397@gmail.com',
+      Subject: 'Software Demo Request',
+      CC: 'erum.azam@cloudtenants.com',
       FromNames: 'noreply@cloudtenants.com',
       ToNames: 'noman.ali@cloudtenants.com',
-      Body: 'This is the email body.',
-      Tempalte: 'DEMO_REQUEST',
+      Body: '',
+      Template: 'DEMO_REQUEST',
       KeyValuesData: {
         Name: this.name,
         Email: this.businessEmail,
