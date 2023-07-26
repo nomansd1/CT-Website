@@ -1,0 +1,7 @@
+.support_banner {
+    background: url('../../../../assets/supportbanner.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 100vh;
+}

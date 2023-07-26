@@ -10,7 +10,7 @@ export class ProductComponent implements OnInit {
   
   @Input() ourProducts: any;
 
-  constructor( private router: Router ) {}
+  constructor( public router: Router ) {}
   
 ngOnInit(): void {
   console.log(this.ourProducts.label);

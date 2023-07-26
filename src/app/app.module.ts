@@ -38,6 +38,18 @@ import { PartnerFormComponent } from './components/partner/partner-form/partner-
 import { AlliancesBannerComponent } from './components/alliances/alliances-banner/alliances-banner.component';
 import { AlliancesLayoutComponent } from './components/alliances/alliances-layout/alliances-layout.component';
 import { AlliancesGridComponent } from './components/alliances/alliances-grid/alliances-grid.component';
+import { NetworkBannerComponent } from './components/networks/network-banner/network-banner.component';
+import { NetworkLayoutComponent } from './components/networks/network-layout/network-layout.component';
+import { NetworkGridComponent } from './components/networks/network-grid/network-grid.component';
+import { OnboardingBannerComponent } from './components/onboarding/onboarding-banner/onboarding-banner.component';
+import { OnboardingLayoutComponent } from './components/onboarding/onboarding-layout/onboarding-layout.component';
+import { SupportLayoutComponent } from './components/support/support-layout/support-layout.component';
+import { SupportBannerComponent } from './components/support/support-banner/support-banner.component';
+import { SupportGridComponent } from './components/support/support-grid/support-grid.component';
+import { SoftwareBannerComponent } from './components/softwares/software-banner/software-banner.component';
+import { SoftwareLayoutComponent } from './components/softwares/software-layout/software-layout.component';
+import { SoftwareGridComponent } from './components/softwares/software-grid/software-grid.component';
+import { LoaderComponent } from './components/_shared/loader/loader.component';
 
 @NgModule({
   declarations: [
@@ -72,7 +84,19 @@ import { AlliancesGridComponent } from './components/alliances/alliances-grid/al
     PartnerFormComponent,
     AlliancesBannerComponent,
     AlliancesLayoutComponent,
-    AlliancesGridComponent
+    AlliancesGridComponent,
+    NetworkBannerComponent,
+    NetworkLayoutComponent,
+    NetworkGridComponent,
+    OnboardingBannerComponent,
+    OnboardingLayoutComponent,
+    SupportLayoutComponent,
+    SupportBannerComponent,
+    SupportGridComponent,
+    SoftwareBannerComponent,
+    SoftwareLayoutComponent,
+    SoftwareGridComponent,
+    LoaderComponent
   ],
   imports: [
     BrowserModule,
