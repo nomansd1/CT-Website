@@ -5,8 +5,11 @@
         </div>
         <div class="bg-transparent flex flex-row-reverse flex-wrap">
             <div class="mb-12 w-full shrink-0 grow-0 basis-auto md:px-3 lg:mb-0 lg:w-1/2 lg:px-6">
-                <div class="bg-green-600">
-                    <h1 class="text-white"></h1>
+                <div *ngIf="successMessage.state == true" class="bg-[#d4edda] p-2 px-2 rounded-md mb-4">
+                    <h1 class="text-[#155724] text-sm"> {{ successMessage.msg }} </h1>
+                </div>
+                <div *ngIf="validateMessage.state == true" class="bg-[#D4C3CD] p-2 px-2 rounded-md mb-4">
+                    <h1 class="text-[#721c24] text-sm"> {{ validateMessage.msg }} </h1>
                 </div>
                 <form (ngSubmit)="onSubmit()">
                     <div class="flex flex-col md:flex-row gap-4 mb-4 justify-center items-center">
