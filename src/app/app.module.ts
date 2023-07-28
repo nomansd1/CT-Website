@@ -50,6 +50,7 @@ import { SoftwareBannerComponent } from './components/softwares/software-banner/
 import { SoftwareLayoutComponent } from './components/softwares/software-layout/software-layout.component';
 import { SoftwareGridComponent } from './components/softwares/software-grid/software-grid.component';
 import { LoaderComponent } from './components/_shared/loader/loader.component';
+import { SidebarComponent } from './components/_shared/sidebar/sidebar.component';
 
 @NgModule({
   declarations: [
@@ -96,7 +97,8 @@ import { LoaderComponent } from './components/_shared/loader/loader.component';
     SoftwareBannerComponent,
     SoftwareLayoutComponent,
     SoftwareGridComponent,
-    LoaderComponent
+    LoaderComponent,
+    SidebarComponent,
   ],
   imports: [
     BrowserModule,

@@ -8,10 +8,10 @@ import { Component } from '@angular/core';
 export class AboutComponent {
 
   aboutGridTiles = [
-    {title: 'Technologies', url: '../../../../assets/abtgrid1.png'},
-    {title: 'Support Mechanism', url: '../../../../assets/abtgrid2.png'},
-    {title: 'On-Boarding process', url: '../../../../assets/abtgrid3.png'},
-    {title: 'Our Services Network', url: '../../../../assets/abtgrid4.png'},
+    {title: 'Technologies', url: '../../../../assets/abtgrid1.png', link: 'technologies'},
+    {title: 'Support Mechanism', url: '../../../../assets/abtgrid2.png', link: 'support'},
+    {title: 'On-Boarding process', url: '../../../../assets/abtgrid3.png', link: 'boarding'},
+    {title: 'Our Services Network', url: '../../../../assets/abtgrid4.png', link: 'networks'},
   ]
 
 }

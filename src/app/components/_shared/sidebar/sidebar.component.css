@@ -1,0 +1,17 @@
+.sidebar__bx {
+    background: url('../../../../assets/softwarebanner.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    position: fixed;
+    /* top: 0; */
+    left: 0;
+    right: 0;
+    bottom: -100%;
+    z-index: 9999;
+    width: 100%;
+    overflow: hidden;
+    transition: all .5s ease-in-out;
+}
+

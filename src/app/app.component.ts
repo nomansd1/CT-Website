@@ -8,13 +8,19 @@ import { register } from 'swiper/element/bundle';
 })
 export class AppComponent implements AfterViewInit, OnInit {
   isLoading: boolean = true;
+  sidebarVisible = false;
 
   ngOnInit() {
     setTimeout(() => {
       this.isLoading = false;
-    }, 1000); 
+    }, 100); 
   }
   ngAfterViewInit(): void {
     register();
+  }
+
+  onToggleSidebar() {
+    this.sidebarVisible = !this.sidebarVisible;
+    console.log('sidebarVisible:', this.sidebarVisible);
   }
 }

@@ -1,4 +1,4 @@
-import { Component, HostListener, ElementRef, Renderer2 } from '@angular/core';
+import { Component, HostListener, ElementRef, Renderer2, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-header',
@@ -9,6 +9,12 @@ export class HeaderComponent {
   
   navbar = true
   header = false;
+  fixedHeader = false;
+  absoluteHeader = true;
+  lastScrollTop = 0;
+  hideTop = false
+  @Output() toggleSidebar = new EventEmitter<void>();
+
   navLinks = [
     { title: 'Home', url: '' },
     { title: 'About', url: 'about' },
@@ -25,16 +31,35 @@ export class HeaderComponent {
   @HostListener('window:scroll', [])
   onWindowScroll() {
     const scrollHeight = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
-    if (scrollHeight > 40) {
+    if (scrollHeight > 70) {
       this.header = true;
+      this.hideTop = true
     }
     else {
       this.header = false;
     }
+    // Get the current scroll position
+    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    
+    // Check if scrolling down and not at the top of the page
+    if (scrollTop > this.lastScrollTop && scrollTop > 0) {
+      this.fixedHeader = false;
+      this.absoluteHeader = true;
+    } else {
+      this.fixedHeader = true;
+      this.absoluteHeader = false;
+      this.hideTop = false
+    }
+
+    this.lastScrollTop = scrollTop;
   }
 
   toggleNavbar() {
     this.navbar = !this.navbar;
     this.header = !this.header;
+  }
+
+  onToggleSidebar() {
+    this.toggleSidebar.emit();
   }
 }

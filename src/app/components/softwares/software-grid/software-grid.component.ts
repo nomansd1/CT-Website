@@ -30,7 +30,7 @@ export class SoftwareGridComponent {
       borderColor: 'hover:ring-[#0A9AC8]',
       rowReverse: true,
       flexEnd: false,
-      navArrow: false,
+      navArrow: true,
       label: 'S&D e.suite'
     },
   ]
@@ -59,7 +59,7 @@ export class SoftwareGridComponent {
       borderColor: 'hover:ring-[#769F42]',
       rowReverse: true,
       flexEnd: false,
-      navArrow: false,
+      navArrow: true,
       label: 'POS Select'
     }
   ]
@@ -114,7 +114,7 @@ export class SoftwareGridComponent {
       borderColor: 'hover:ring-[#CDDC39]',
       rowReverse: true,
       flexEnd: false,
-      navArrow: true,
+      navArrow: false,
       label: 'Finance+'
     },
     { 
