@@ -1,0 +1,7 @@
+.fin_banner {
+    background: url('../../../../assets/finbanner.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+}

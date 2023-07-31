@@ -11,8 +11,8 @@ export class AlliancesGridComponent {
     { img: '../../../../assets/member2.png' },
   ]
   partners = [
-    { img: '../../../../assets/partner1.png' },
-    { img: '../../../../assets/partner2.png' },
+    { img: '../../../../assets/partner1.png', title: 'ip co sell-ready solution partner' },
+    { img: '../../../../assets/partner2.png', title: 'isv partner' },
   ]
   ventures = [
     { title: 'united arab emirates', img: '../../../../assets/vent1.png' },

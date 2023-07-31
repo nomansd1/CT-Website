@@ -11,6 +11,7 @@ import { NetworkLayoutComponent } from './components/networks/network-layout/net
 import { OnboardingLayoutComponent } from './components/onboarding/onboarding-layout/onboarding-layout.component';
 import { SupportLayoutComponent } from './components/support/support-layout/support-layout.component';
 import { SoftwareLayoutComponent } from './components/softwares/software-layout/software-layout.component';
+import { FinanceLayoutComponent } from './components/finance+/finance-layout/finance-layout.component';
 
 const routes: Routes = [
   { path: '', component: IndexLayoutComponent },
@@ -25,6 +26,7 @@ const routes: Routes = [
   { path: 'boarding', component: OnboardingLayoutComponent },
   { path: 'support', component: SupportLayoutComponent },
   { path: 'softwares', component: SoftwareLayoutComponent },
+  { path: 'softwares/finance', component: FinanceLayoutComponent },
 ];
 
 @NgModule({

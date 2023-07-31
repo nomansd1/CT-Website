@@ -18,7 +18,8 @@ export class SoftwareGridComponent {
       rowReverse: false,
       flexEnd: true,
       navArrow: false,
-      label: 'S&D Next'
+      label: 'S&D Next',
+      url: 's&dnext'
     },
     { 
       desc: 'Cloud Tenants S&D e.suite takes you to the next level of Business Optimization. It includes DBRS, Sales Forecast, Distribution Claims, Sales Incentives and Merchandising Softwares that can drive your business towards success.', 
@@ -31,7 +32,8 @@ export class SoftwareGridComponent {
       rowReverse: true,
       flexEnd: false,
       navArrow: true,
-      label: 'S&D e.suite'
+      label: 'S&D e.suite',
+      url: 's&desuite'
     },
   ]
 
@@ -47,7 +49,8 @@ export class SoftwareGridComponent {
       rowReverse: false,
       flexEnd: true,
       navArrow: false,
-      label: 'POS Xtreme'
+      label: 'POS Xtreme',
+      url: 'posxtreme'
     },
     { 
       desc: 'Leading Point of Sale Solution for Food Kiosk to Fine Dining Restaurants Chain. POS Select, is designed specifically for the food service industry to manage Restaurant Operations, Streamline Order Processing, and Enhancing Overall Dining Experience. ', 
@@ -60,7 +63,8 @@ export class SoftwareGridComponent {
       rowReverse: true,
       flexEnd: false,
       navArrow: true,
-      label: 'POS Select'
+      label: 'POS Select',
+      url: 'posselect'
     }
   ]
 
@@ -76,7 +80,8 @@ export class SoftwareGridComponent {
       rowReverse: true,
       flexEnd: false,
       navArrow: false,
-      label: 'WMS Extended'
+      label: 'WMS Extended',
+      url: 'wmsextended'
     },
     { 
       desc: 'Cloud Tenants SCM+ (Supply Chain Management) solution offers end-to-end Supply Chain Cycle. This module oversees the Procurement, Inventory, and Distribution of Materials and Products, as well as the management of Vendors and Suppliers.', 
@@ -89,7 +94,8 @@ export class SoftwareGridComponent {
       rowReverse: true,
       flexEnd: false,
       navArrow: false,
-      label: 'SCM+'
+      label: 'SCM+',
+      url: 'scm'
     },
     { 
       desc: 'Cloud Tenants HCM+ (Human Capital Management) solutions offers end-to-end Employee Lifecycle Management. It consist of integeration in HR, Time Adherence, Attendance, Payroll, Scheduling and Other processes of HR and Payroll Management.', 
@@ -102,7 +108,8 @@ export class SoftwareGridComponent {
       rowReverse: false,
       flexEnd: true,
       navArrow: false,
-      label: 'HCM+'
+      label: 'HCM+',
+      url: 'hcm'
     },
     { 
       desc: 'Our Finance+ Module manages the financial transactions and accounting activities of an Organizations, including Genral Ledger, Accounts Payable, Accounts Receivable, Cash Management, Budget and Forecasting, Tax Management and Fixed Assets.', 
@@ -115,7 +122,8 @@ export class SoftwareGridComponent {
       rowReverse: true,
       flexEnd: false,
       navArrow: false,
-      label: 'Finance+'
+      label: 'Finance+',
+      url: 'finance'
     },
     { 
       desc: 'Our Production Module refers to a category of Software tools & Systems that are designed to assist businesses in Managing, optimizing their production processes. It helps you Streamline & Automate various aspects of Production such as Planning, Scheduling, Inventory Management, Quality Control and Reporting.', 
@@ -128,7 +136,8 @@ export class SoftwareGridComponent {
       rowReverse: false,
       flexEnd: true,
       navArrow: false,
-      label: 'Production+'
+      label: 'Production+',
+      url: 'production'
     },
     { 
       desc: 'Cloud Tenants Import  Software Solution manages Landed Cost Tracking, Duty and Taxes, LC Opening/Arrival and Import Good Received Note (GRN).', 
@@ -141,7 +150,8 @@ export class SoftwareGridComponent {
       rowReverse: true,
       flexEnd: false,
       navArrow: false,
-      label: 'Import+'
+      label: 'Import+',
+      url: 'import'
     },
     { 
       desc: 'Cloud Tenants Primary Sales Software can be used to automate and monitor end-to-end primary sales activities which includes interaction between Manufacturers and Dealers. It consist of sending order to Manufacturers, Prepare, Dispatch and Receive Cash/Cheque and Delivery of Products to Dealer\'s end.', 
@@ -154,7 +164,8 @@ export class SoftwareGridComponent {
       rowReverse: false,
       flexEnd: true,
       navArrow: false,
-      label: 'Primary+'
+      label: 'Primary+',
+      url: 'primary'
     },
   ]
 }

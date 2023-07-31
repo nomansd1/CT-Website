@@ -20,4 +20,8 @@ ngOnInit(): void {
   navigateToDemo(productName: string) {
     this.router.navigate([`/demo/`, productName]);
   }
+
+  navigateToProduct(productName: string) {
+    this.router.navigate([`/softwares/`, productName]);
+  }
 }

@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { CountUpModule } from 'ngx-countup';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
-
+import { CarouselModule } from 'ngx-owl-carousel-o';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/_shared/header/header.component';
@@ -51,6 +51,10 @@ import { SoftwareLayoutComponent } from './components/softwares/software-layout/
 import { SoftwareGridComponent } from './components/softwares/software-grid/software-grid.component';
 import { LoaderComponent } from './components/_shared/loader/loader.component';
 import { SidebarComponent } from './components/_shared/sidebar/sidebar.component';
+import { OnboardingProcessComponent } from './components/onboarding/onboarding-process/onboarding-process.component';
+import { FinanceBannerComponent } from './components/finance+/finance-banner/finance-banner.component';
+import { FinanceLayoutComponent } from './components/finance+/finance-layout/finance-layout.component';
+import { FinanceGridComponent } from './components/finance+/finance-grid/finance-grid.component';
 
 @NgModule({
   declarations: [
@@ -99,13 +103,18 @@ import { SidebarComponent } from './components/_shared/sidebar/sidebar.component
     SoftwareGridComponent,
     LoaderComponent,
     SidebarComponent,
+    OnboardingProcessComponent,
+    FinanceBannerComponent,
+    FinanceLayoutComponent,
+    FinanceGridComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     CountUpModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    CarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent],

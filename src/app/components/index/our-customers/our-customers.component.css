@@ -1,35 +1,25 @@
-/* The container that hides the overflow and creates the scrolling effect */
-.marquee {
-    width: 100%;
-    overflow: hidden;
-  }
-  
-  /* The content to be scrolled */
-  .content {
-    white-space: nowrap; /* Prevent content from wrapping */
-    animation: marquee 20s linear infinite; /* Adjust the animation duration as needed */
-  }
+.slide {
+  animation: 93.3333s linear 1s infinite reverse none running infinityMode;
+}
 
-  .content2 {
-    white-space: nowrap; /* Prevent content from wrapping */
-    animation: marquee2 20s linear infinite; /* Adjust the animation duration as needed */
-  }
-  
-  /* Keyframes to create the scrolling effect */
-  @keyframes marquee {
-    from {
-      transform: translateX(100%); /* Start the content outside the container on the right */
-    }
-    to {
-      transform: translateX(-100%); /* Move the content to the left completely outside the container */
-    }
-  }
+@keyframes infinityMode {
+  0% {
+    transform: translate3d(0,0,0);
+}
+100% {
+    transform: translate3d(1400px,0,0);
+} 
+}
 
-  @keyframes marquee2 {
-    from {
-      transform: translateX(-100%); /* Start the content outside the container on the right */
-    }
-    to {
-      transform: translateX(100%); /* Move the content to the left completely outside the container */
-    }
+.slide2 {
+  animation: 93.3333s linear 1s infinite reverse none running infinityMode2;
+}
+
+@keyframes infinityMode2 {
+  0% {
+    transform: translate3d(0,0,0);
   }
+  100% {
+    transform: translate3d(-1400px,0,0);
+  } 
+}
