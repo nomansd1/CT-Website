@@ -1,4 +1,5 @@
-.partners__logo img:nth-child(2) {
-    width: 90px;
-    height: 52px;
+.partners__logo img {
+    width: 15%;
+    aspect-ratio: 4/3;
+    object-fit: contain;
 }

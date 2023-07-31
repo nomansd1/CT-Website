@@ -55,6 +55,30 @@ import { OnboardingProcessComponent } from './components/onboarding/onboarding-p
 import { FinanceBannerComponent } from './components/finance+/finance-banner/finance-banner.component';
 import { FinanceLayoutComponent } from './components/finance+/finance-layout/finance-layout.component';
 import { FinanceGridComponent } from './components/finance+/finance-grid/finance-grid.component';
+import { HcmLayoutComponent } from './components/hcm+/hcm-layout/hcm-layout.component';
+import { HcmBannerComponent } from './components/hcm+/hcm-banner/hcm-banner.component';
+import { HcmGridComponent } from './components/hcm+/hcm-grid/hcm-grid.component';
+import { ImpLayoutComponent } from './components/import/imp-layout/imp-layout.component';
+import { ImpBannerComponent } from './components/import/imp-banner/imp-banner.component';
+import { ImpGridComponent } from './components/import/imp-grid/imp-grid.component';
+import { PossLayoutComponent } from './components/pos-select/poss-layout/poss-layout.component';
+import { PossBannerComponent } from './components/pos-select/poss-banner/poss-banner.component';
+import { PossGridComponent } from './components/pos-select/poss-grid/poss-grid.component';
+import { PosxLayoutComponent } from './components/pos-xtreme/posx-layout/posx-layout.component';
+import { PosxBannerComponent } from './components/pos-xtreme/posx-banner/posx-banner.component';
+import { PosxGridComponent } from './components/pos-xtreme/posx-grid/posx-grid.component';
+import { ProdBannerComponent } from './components/production+/prod-banner/prod-banner.component';
+import { ProdGridComponent } from './components/production+/prod-grid/prod-grid.component';
+import { ProdLayoutComponent } from './components/production+/prod-layout/prod-layout.component';
+import { PrimaryLayoutComponent } from './components/primary+/primary-layout/primary-layout.component';
+import { PrimaryBannerComponent } from './components/primary+/primary-banner/primary-banner.component';
+import { PrimaryGridComponent } from './components/primary+/primary-grid/primary-grid.component';
+import { SndLayoutComponent } from './components/s&d-next/snd-layout/snd-layout.component';
+import { SndBannerComponent } from './components/s&d-next/snd-banner/snd-banner.component';
+import { SndGridComponent } from './components/s&d-next/snd-grid/snd-grid.component';
+import { SndeLayoutComponent } from './components/s&d-esuite/snde-layout/snde-layout.component';
+import { SndeBannerComponent } from './components/s&d-esuite/snde-banner/snde-banner.component';
+import { SndeGridComponent } from './components/s&d-esuite/snde-grid/snde-grid.component';
 
 @NgModule({
   declarations: [
@@ -107,6 +131,30 @@ import { FinanceGridComponent } from './components/finance+/finance-grid/finance
     FinanceBannerComponent,
     FinanceLayoutComponent,
     FinanceGridComponent,
+    HcmLayoutComponent,
+    HcmBannerComponent,
+    HcmGridComponent,
+    ImpLayoutComponent,
+    ImpBannerComponent,
+    ImpGridComponent,
+    PossLayoutComponent,
+    PossBannerComponent,
+    PossGridComponent,
+    PosxLayoutComponent,
+    PosxBannerComponent,
+    PosxGridComponent,
+    ProdBannerComponent,
+    ProdGridComponent,
+    ProdLayoutComponent,
+    PrimaryLayoutComponent,
+    PrimaryBannerComponent,
+    PrimaryGridComponent,
+    SndLayoutComponent,
+    SndBannerComponent,
+    SndGridComponent,
+    SndeLayoutComponent,
+    SndeBannerComponent,
+    SndeGridComponent,
   ],
   imports: [
     BrowserModule,

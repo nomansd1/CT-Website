@@ -12,6 +12,13 @@ import { OnboardingLayoutComponent } from './components/onboarding/onboarding-la
 import { SupportLayoutComponent } from './components/support/support-layout/support-layout.component';
 import { SoftwareLayoutComponent } from './components/softwares/software-layout/software-layout.component';
 import { FinanceLayoutComponent } from './components/finance+/finance-layout/finance-layout.component';
+import { HcmLayoutComponent } from './components/hcm+/hcm-layout/hcm-layout.component';
+import { ImpLayoutComponent } from './components/import/imp-layout/imp-layout.component';
+import { PossLayoutComponent } from './components/pos-select/poss-layout/poss-layout.component';
+import { PosxLayoutComponent } from './components/pos-xtreme/posx-layout/posx-layout.component';
+import { ProdLayoutComponent } from './components/production+/prod-layout/prod-layout.component';
+import { PrimaryLayoutComponent } from './components/primary+/primary-layout/primary-layout.component';
+import { SndLayoutComponent } from './components/s&d-next/snd-layout/snd-layout.component';
 
 const routes: Routes = [
   { path: '', component: IndexLayoutComponent },
@@ -27,6 +34,14 @@ const routes: Routes = [
   { path: 'support', component: SupportLayoutComponent },
   { path: 'softwares', component: SoftwareLayoutComponent },
   { path: 'softwares/finance', component: FinanceLayoutComponent },
+  { path: 'softwares/hcm', component: HcmLayoutComponent },
+  { path: 'softwares/import', component: ImpLayoutComponent },
+  { path: 'softwares/pos%select', component: PossLayoutComponent },
+  { path: 'softwares/pos%xtreme', component: PosxLayoutComponent },
+  { path: 'softwares/production', component: ProdLayoutComponent },
+  { path: 'softwares/primary', component: PrimaryLayoutComponent },
+  { path: 'softwares/s&d%next', component: SndLayoutComponent },
+
 ];
 
 @NgModule({

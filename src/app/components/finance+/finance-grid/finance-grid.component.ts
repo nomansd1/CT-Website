@@ -6,13 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./finance-grid.component.css']
 })
 export class FinanceGridComponent {
-  subBanner = {
-    url: '',
-    title: 'finance',
-    slogan: 'the next generation financial software',
-    desc: 'a comprehensive finance software solution with a wide range  of financial management capabilities.'
-  }
-
   tiles =[
     { url: '../../../../assets/fin1.png', title: 'cloud based app' },
     { url: '../../../../assets/fin2.png', title: 'works in live environment' },
