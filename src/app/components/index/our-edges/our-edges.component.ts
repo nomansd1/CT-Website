@@ -1,11 +1,21 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild, AfterViewInit, QueryList, ViewChildren } from '@angular/core';
+import { CountUpDirective } from 'ngx-countup';
+import { OwlOptions } from 'ngx-owl-carousel-o';
+
 
 @Component({
   selector: 'app-our-edges',
   templateUrl: './our-edges.component.html',
   styleUrls: ['./our-edges.component.css']
 })
-export class OurEdgesComponent  { 
+export class OurEdgesComponent implements AfterViewInit{ 
+
+  // Use ViewChildren to get a list of all CountUpDirective elements
+  @ViewChildren(CountUpDirective) countUpDirectives: QueryList<CountUpDirective>;
+
+  ngAfterViewInit(): void {
+    this.reanimate();
+  }
 
   edgeGridTiles1 = [
     { title: 'Years of Industry Experience', stats: 25 },
@@ -25,4 +35,10 @@ export class OurEdgesComponent  {
     { title: 'ERP Modules Suite', stats: 6 },
   ]
 
+  reanimate() {
+    setInterval(() => {
+      // Iterate through each CountUpDirective element and reanimate
+      this.countUpDirectives.forEach(countUpDirective => countUpDirective.animate());
+    }, 3000);
+  }
 }

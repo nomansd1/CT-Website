@@ -4,6 +4,7 @@ import { CountUpModule } from 'ngx-countup';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { CarouselModule } from 'ngx-owl-carousel-o';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/_shared/header/header.component';
@@ -174,7 +175,8 @@ import { WmsGridComponent } from './components/wms-extended/wms-grid/wms-grid.co
     CountUpModule,
     FormsModule,
     HttpClientModule,
-    CarouselModule
+    CarouselModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent],
