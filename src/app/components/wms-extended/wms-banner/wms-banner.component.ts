@@ -2,11 +2,11 @@ import { Component } from '@angular/core';
 import { ScrollService } from 'src/app/services/scroll.service';
 
 @Component({
-  selector: 'app-snde-banner',
-  templateUrl: './snde-banner.component.html',
-  styleUrls: ['./snde-banner.component.css']
+  selector: 'app-wms-banner',
+  templateUrl: './wms-banner.component.html',
+  styleUrls: ['./wms-banner.component.css']
 })
-export class SndeBannerComponent {
+export class WmsBannerComponent {
   constructor(private scrollService: ScrollService) {}
 
   scroll() {

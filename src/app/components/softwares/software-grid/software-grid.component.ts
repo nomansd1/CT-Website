@@ -81,7 +81,7 @@ export class SoftwareGridComponent {
       flexEnd: false,
       navArrow: false,
       label: 'WMS Extended',
-      url: 'wmsextended'
+      url: 'wms'
     },
     { 
       desc: 'Cloud Tenants SCM+ (Supply Chain Management) solution offers end-to-end Supply Chain Cycle. This module oversees the Procurement, Inventory, and Distribution of Materials and Products, as well as the management of Vendors and Suppliers.', 

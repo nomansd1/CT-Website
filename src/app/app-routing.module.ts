@@ -19,6 +19,9 @@ import { PosxLayoutComponent } from './components/pos-xtreme/posx-layout/posx-la
 import { ProdLayoutComponent } from './components/production+/prod-layout/prod-layout.component';
 import { PrimaryLayoutComponent } from './components/primary+/primary-layout/primary-layout.component';
 import { SndLayoutComponent } from './components/s&d-next/snd-layout/snd-layout.component';
+import { SndeLayoutComponent } from './components/s&d-esuite/snde-layout/snde-layout.component';
+import { ScmLayoutComponent } from './components/scn+/scm-layout/scm-layout.component';
+import { WmsLayoutComponent } from './components/wms-extended/wms-layout/wms-layout.component';
 
 const routes: Routes = [
   { path: '', component: IndexLayoutComponent },
@@ -41,7 +44,9 @@ const routes: Routes = [
   { path: 'softwares/production', component: ProdLayoutComponent },
   { path: 'softwares/primary', component: PrimaryLayoutComponent },
   { path: 'softwares/s&d%next', component: SndLayoutComponent },
-
+  { path: 'softwares/s&d%esuite', component: SndeLayoutComponent },
+  { path: 'softwares/scm', component: ScmLayoutComponent },
+  { path: 'softwares/wms', component: WmsLayoutComponent },
 ];
 
 @NgModule({

@@ -1,0 +1,29 @@
+<section class="bg-white">
+    <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
+        <div class="w-[90%] md:w-[70%] mx-auto">
+            <img src="../../../../assets/scmsubbanner.png" alt="">
+        </div>
+        <div class="text-gray-800 mt-10">
+            <h1 class="text-3xl font-bold capitalize">key features</h1>
+            <hr class="my-2 h-6">
+            <div class="flex flex-wrap justify-center items-start gap-10">
+                <div *ngFor="let tile of tiles" class="w-[150px] flex flex-col justify-start items-center">
+                    <div class="w-[100px] h-[100px]">
+                        <img [src]="tile.url" alt="" class="w-full h-full">
+                    </div>
+                    <p class="text-sm font-medium text-center capitalize mt-2"> {{ tile.title }} </p>
+                </div>
+            </div>
+            <h1 class="text-3xl font-bold capitalize">SCM mobile apps</h1>
+            <hr class="my-2 h-6">
+            <div class="flex flex-wrap justify-center items-start gap-10">
+                <div *ngFor="let tile of tiles2" class="w-[150px] flex flex-col justify-start items-center">
+                    <div class="w-[100px] h-[100px]">
+                        <img [src]="tile.url" alt="" class="w-full h-full">
+                    </div>
+                    <p class="text-sm font-medium text-center capitalize mt-2"> {{ tile.title }} </p>
+                </div>
+            </div>
+        </div>       
+    </div>
+  </section>

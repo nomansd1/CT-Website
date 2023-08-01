@@ -79,6 +79,12 @@ import { SndGridComponent } from './components/s&d-next/snd-grid/snd-grid.compon
 import { SndeLayoutComponent } from './components/s&d-esuite/snde-layout/snde-layout.component';
 import { SndeBannerComponent } from './components/s&d-esuite/snde-banner/snde-banner.component';
 import { SndeGridComponent } from './components/s&d-esuite/snde-grid/snde-grid.component';
+import { ScmLayoutComponent } from './components/scn+/scm-layout/scm-layout.component';
+import { ScmBannerComponent } from './components/scn+/scm-banner/scm-banner.component';
+import { ScmGridComponent } from './components/scn+/scm-grid/scm-grid.component';
+import { WmsLayoutComponent } from './components/wms-extended/wms-layout/wms-layout.component';
+import { WmsBannerComponent } from './components/wms-extended/wms-banner/wms-banner.component';
+import { WmsGridComponent } from './components/wms-extended/wms-grid/wms-grid.component';
 
 @NgModule({
   declarations: [
@@ -155,6 +161,12 @@ import { SndeGridComponent } from './components/s&d-esuite/snde-grid/snde-grid.c
     SndeLayoutComponent,
     SndeBannerComponent,
     SndeGridComponent,
+    ScmLayoutComponent,
+    ScmBannerComponent,
+    ScmGridComponent,
+    WmsLayoutComponent,
+    WmsBannerComponent,
+    WmsGridComponent,
   ],
   imports: [
     BrowserModule,

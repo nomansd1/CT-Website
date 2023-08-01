@@ -1,1 +1,79 @@
-<p>snde-grid works!</p>
+<section class="bg-white">
+    <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
+        <div class="w-[90%] md:w-[70%] mx-auto">
+            <img src="../../../../assets/sndesubbanner.png" alt="">
+        </div>
+        <div class="text-gray-800 mt-10">
+            <h1 class="text-3xl font-bold capitalize">demand based replenishment module</h1>
+            <hr class="my-2 h-6">
+            <div class="flex flex-wrap justify-center items-start gap-10">
+                <div *ngFor="let tile of tiles" class="w-[150px] flex flex-col justify-start items-center">
+                    <div class="w-[100px] h-[100px]">
+                        <img [src]="tile.url" alt="" class="w-full h-full">
+                    </div>
+                    <p class="text-sm font-medium text-center capitalize mt-2"> {{ tile.title }} </p>
+                </div>
+            </div>
+            <h1 class="text-3xl font-bold capitalize mt-16">sales forcast module</h1>
+            <hr class="my-2 h-6">
+            <div class="flex flex-wrap justify-center items-start gap-10 mb-10">
+                <div *ngFor="let tile of tiles2" class="w-[150px] flex flex-col justify-start items-center">
+                    <div class="w-[100px] h-[100px]">
+                        <img [src]="tile.url" alt="" class="w-full h-full">
+                    </div>
+                    <p class="text-sm font-medium text-center capitalize mt-2"> {{ tile.title }} </p>
+                </div>
+            </div>
+            <h1 class="text-3xl font-bold capitalize mt-16">merchandiser module</h1>
+            <hr class="my-2 h-6">
+            <div class="flex flex-wrap justify-center items-start gap-10 mb-10">
+                <div *ngFor="let tile of tiles3" class="w-[150px] flex flex-col justify-start items-center">
+                    <div class="w-[100px] h-[100px]">
+                        <img [src]="tile.url" alt="" class="w-full h-full">
+                    </div>
+                    <p class="text-sm font-medium text-center capitalize mt-2"> {{ tile.title }} </p>
+                </div>
+            </div>
+            <h1 class="text-3xl font-bold capitalize mt-16">sales incentive apps</h1>
+            <hr class="my-2 h-6">
+            <div class="flex flex-wrap justify-center items-start gap-10 mb-10">
+                <div *ngFor="let tile of tiles4" class="w-[150px] flex flex-col justify-start items-center">
+                    <div class="w-[100px] h-[100px]">
+                        <img [src]="tile.url" alt="" class="w-full h-full">
+                    </div>
+                    <p class="text-sm font-medium text-center capitalize mt-2"> {{ tile.title }} </p>
+                </div>
+            </div>
+            <h1 class="text-3xl font-bold capitalize mt-16">retailers apps</h1>
+            <hr class="my-2 h-6">
+            <div class="flex flex-wrap justify-center items-start gap-10 mb-10">
+                <div *ngFor="let tile of tiles5" class="w-[150px] flex flex-col justify-start items-center">
+                    <div class="w-[100px] h-[100px]">
+                        <img [src]="tile.url" alt="" class="w-full h-full">
+                    </div>
+                    <p class="text-sm font-medium text-center capitalize mt-2"> {{ tile.title }} </p>
+                </div>
+            </div>
+            <h1 class="text-3xl font-bold capitalize mt-16">distributor claims automation portal</h1>
+            <hr class="my-2 h-6">
+            <div class="flex flex-wrap justify-center items-start gap-10 mb-10">
+                <div *ngFor="let tile of tiles6" class="w-[150px] flex flex-col justify-start items-center">
+                    <div class="w-[100px] h-[100px]">
+                        <img [src]="tile.url" alt="" class="w-full h-full">
+                    </div>
+                    <p class="text-sm font-medium text-center capitalize mt-2"> {{ tile.title }} </p>
+                </div>
+            </div>
+            <h1 class="text-3xl font-bold capitalize mt-16">sales team travelling app</h1>
+            <hr class="my-2 h-6">
+            <div class="flex flex-wrap justify-center items-start gap-10 mb-10">
+                <div *ngFor="let tile of tiles7" class="w-[150px] flex flex-col justify-start items-center">
+                    <div class="w-[100px] h-[100px]">
+                        <img [src]="tile.url" alt="" class="w-full h-full">
+                    </div>
+                    <p class="text-sm font-medium text-center capitalize mt-2"> {{ tile.title }} </p>
+                </div>
+            </div>
+        </div>       
+    </div>
+  </section>
