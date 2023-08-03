@@ -1,0 +1,7 @@
+.icons img {
+    width: 110px;
+    height: 46px;
+    object-fit: contain;
+    aspect-ratio: 4/3;
+    mix-blend-mode: multiply;
+  }

@@ -86,6 +86,9 @@ import { ScmGridComponent } from './components/scn+/scm-grid/scm-grid.component'
 import { WmsLayoutComponent } from './components/wms-extended/wms-layout/wms-layout.component';
 import { WmsBannerComponent } from './components/wms-extended/wms-banner/wms-banner.component';
 import { WmsGridComponent } from './components/wms-extended/wms-grid/wms-grid.component';
+import { CustomersLayoutComponent } from './components/customers/customers-layout/customers-layout.component';
+import { CustomersBannerComponent } from './components/customers/customers-banner/customers-banner.component';
+import { CustomersGridComponent } from './components/customers/customers-grid/customers-grid.component';
 
 @NgModule({
   declarations: [
@@ -168,6 +171,9 @@ import { WmsGridComponent } from './components/wms-extended/wms-grid/wms-grid.co
     WmsLayoutComponent,
     WmsBannerComponent,
     WmsGridComponent,
+    CustomersLayoutComponent,
+    CustomersBannerComponent,
+    CustomersGridComponent,
   ],
   imports: [
     BrowserModule,

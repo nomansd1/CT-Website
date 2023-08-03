@@ -11,3 +11,6 @@ body {
     scroll-behavior: smooth;
 }
 
+button, a {
+    transition: all .5s ease;
+}

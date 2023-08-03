@@ -1,8 +1,11 @@
-<section class="bg-[#ECF8FA]">
+<section class="bg-[#ECF8FA] relative overflow-hidden">
     <div class="py-8 px-4 mx-auto  sm:py-16 lg:px-6 max-w-screen-xl">
         <div class="mb-8">
             <h2 class="text-4xl text-center tracking-tight font-extrabold text-gray-900">OUR CUSTOMERS</h2>
             <P class="text-lg text-center font-medium text-[#636468]">We are working with amazing companies.</P>
+        </div>
+        <div class="flex justify-center items-center py-5 mb-8">
+            <button (click)="toggleIcons()" class="px-5 py-2.5 text-sm font-medium ring-2 focus:outline-none rounded-lg text-center ring-[#105AB6] text-[#105AB6] hover:bg-[#105AB6] hover:text-white mx-auto">Show All</button>
         </div>
         <owl-carousel-o [options]="customOptions" class="flex items-center w-full overflow-hidden">
             <ng-container *ngFor="let tile of customerGridTiles1">
@@ -18,12 +21,5 @@
                 </ng-template>
             </ng-container>
         </owl-carousel-o>
-        <!-- <div class="marquee mt-16">
-            <div class="grid grid-cols-2 gap-8 sm:gap-12 md:grid-cols-4 lg:grid-cols-5 content2">
-                <a href="#" *ngFor="let tile of customerGridTiles2" class="flex justify-center items-center">
-                    <img [src]="tile.imgSource" class="h-16" alt="">
-                </a>
-            </div>
-        </div> -->
     </div>
 </section>

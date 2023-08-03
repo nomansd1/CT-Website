@@ -22,6 +22,7 @@ import { SndLayoutComponent } from './components/s&d-next/snd-layout/snd-layout.
 import { SndeLayoutComponent } from './components/s&d-esuite/snde-layout/snde-layout.component';
 import { ScmLayoutComponent } from './components/scn+/scm-layout/scm-layout.component';
 import { WmsLayoutComponent } from './components/wms-extended/wms-layout/wms-layout.component';
+import { CustomersLayoutComponent } from './components/customers/customers-layout/customers-layout.component';
 
 const routes: Routes = [
   { path: '', component: IndexLayoutComponent },
@@ -47,6 +48,7 @@ const routes: Routes = [
   { path: 'softwares/s&d%esuite', component: SndeLayoutComponent },
   { path: 'softwares/scm', component: ScmLayoutComponent },
   { path: 'softwares/wms', component: WmsLayoutComponent },
+  { path: 'customers', component: CustomersLayoutComponent },
 ];
 
 @NgModule({

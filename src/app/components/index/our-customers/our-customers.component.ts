@@ -8,6 +8,8 @@ import { OwlOptions } from 'ngx-owl-carousel-o';
 })
 export class OurCustomersComponent {
 
+  hideAllIcons = true;
+
   customOptions: OwlOptions = {
     loop: true,
     items: 5,
@@ -51,4 +53,8 @@ export class OurCustomersComponent {
     { imgSource: '../../../../assets/c9.png' },
     { imgSource: '../../../../assets/c10.png' },
   ]
+
+  toggleIcons() {
+    
+  }
 }
