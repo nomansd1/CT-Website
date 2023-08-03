@@ -89,6 +89,7 @@ import { WmsGridComponent } from './components/wms-extended/wms-grid/wms-grid.co
 import { CustomersLayoutComponent } from './components/customers/customers-layout/customers-layout.component';
 import { CustomersBannerComponent } from './components/customers/customers-banner/customers-banner.component';
 import { CustomersGridComponent } from './components/customers/customers-grid/customers-grid.component';
+import { ScrollUpComponent } from './components/_shared/scroll-up/scroll-up.component';
 
 @NgModule({
   declarations: [
@@ -174,6 +175,7 @@ import { CustomersGridComponent } from './components/customers/customers-grid/cu
     CustomersLayoutComponent,
     CustomersBannerComponent,
     CustomersGridComponent,
+    ScrollUpComponent,
   ],
   imports: [
     BrowserModule,
