@@ -3,3 +3,6 @@
     aspect-ratio: 4/3;
     object-fit: contain;
 }
+.partners__logo img:nth-child(2) {
+    width: 12%;
+}

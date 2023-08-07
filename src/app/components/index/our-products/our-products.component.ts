@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class OurProductsComponent {
   products = [
     { 
-      desc: 'Our Sales & Distribution Software provide tools and features to enhance Sales Efficiency, Track Leads and Opportunities,Manage Customer Relationships, Automate Sales Tasks, and Analyze Sales & Distribution Performance.', 
+      desc: 'Our Sales & Distribution Software provide tools and features to enhance Sales Efficiency, Track Leads and Opportunities, Manage Customer Relationships, Automate Sales Tasks, and Analyze Sales & Distribution Performance.', 
       gridImgSource: '../../.././../assets/sndnextgrid.png', 
       imgSource: '../../../../assets/sndnext.png',
       btnColor: 'bg-[#0A9AC8]',

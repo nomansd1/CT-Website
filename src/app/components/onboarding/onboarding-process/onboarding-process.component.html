@@ -4,11 +4,11 @@
             <h2 class="mb-4 text-4xl text-center tracking-tight font-extrabold text-gray-900">ON-BOARDING PROCESS</h2>
         </div>
         <ul class="w-full flex flex-wrap items-center justify-center gap-10 stepper">
-            <li *ngFor="let process of processes;" class="my-5 w-[270px] h-[270px] max-w-[270px] max-h-[270px] flex flex-col justify-start items-center relative">
+            <li *ngFor="let process of processes;" class="my-5 w-[230px] h-[230px] max-w-[270px] max-h-[270px] flex flex-col justify-start items-center relative">
               <div class="flex items-center justify-center rounded-full border-[5px] border-[#0A0A0A] p-10 w-fit h-fit">
                 <img [src]="process.url" class="w-28 h-28" alt="">
               </div>
-              <span class="absolute left-9 bottom-12 inline-flex justify-center items-center rounded-full font-medium w-8 h-8 bg-[#0A0A0A] text-white"> {{ process.id }} </span>
+              <span class="absolute left-2 bottom-3 inline-flex justify-center items-center rounded-full font-medium w-8 h-8 bg-[#0A0A0A] text-white"> {{ process.id }} </span>
               <p class="text-xl capitalize font-semibold mt-3 max-w-[150px] text-center"> {{ process.title }} </p>
             </li>
         </ul>          

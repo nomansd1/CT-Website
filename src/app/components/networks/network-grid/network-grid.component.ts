@@ -21,7 +21,7 @@ export class NetworkGridComponent {
     },
     { title: 'Saudia Arabia',
       flag: '../../../../assets/saflag.png',
-      office: 'country office',
+      office: 'country office JV partner',
       map: '../../../../assets/samap.png',
       address: [
         { title: 'Olaya View Tower (Opposite to Kingdom Tower),'},

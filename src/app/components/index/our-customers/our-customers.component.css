@@ -15,6 +15,8 @@
 
 .slide2 {
   animation: 93.3333s linear 1s infinite reverse none running infinityMode2;
+  aspect-ratio: 4/3;
+  object-fit: contain;
 }
 
 @keyframes infinityMode2 {

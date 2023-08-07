@@ -17,7 +17,7 @@ export class HeaderComponent {
 
   navLinks = [
     { title: 'Home', url: '' },
-    { title: 'About', url: 'about' },
+    { title: 'About Us', url: 'about' },
     { title: 'Services Network', url: 'networks' },
     { title: 'Softwares', url: 'softwares' },
     { title: 'Customers', url: 'customers' },

@@ -17,7 +17,7 @@ export class AppsComponent {
       imgSource: '../../../../assets/app2.png',
     },
     { 
-      title: 'merchanndising app', 
+      title: 'merchandising app', 
       imgSource: '../../../../assets/app3.png',
     },
     { 
@@ -25,7 +25,7 @@ export class AppsComponent {
       imgSource: '../../../../assets/app4.png',
     },
     { 
-      title: 'stock management app', 
+      title: 'SCM app', 
       imgSource: '../../../../assets/app5.png',
     },
     { 

@@ -39,6 +39,6 @@ export class OurEdgesComponent implements AfterViewInit{
     setInterval(() => {
       // Iterate through each CountUpDirective element and reanimate
       this.countUpDirectives.forEach(countUpDirective => countUpDirective.animate());
-    }, 3000);
+    }, 2500);
   }
 }

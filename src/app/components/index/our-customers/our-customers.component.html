@@ -10,14 +10,18 @@
         <owl-carousel-o [options]="customOptions" class="flex items-center w-full overflow-hidden">
             <ng-container *ngFor="let tile of customerGridTiles1">
                 <ng-template carouselSlide>
-                        <img [src]="tile.imgSource" class="slide !w-[90px] !h-[46px]" alt="">
+                    <div>
+                        <img [src]="tile.imgSource" class="slide w-[90px] h-[46px]" alt="">
+                    </div>
                 </ng-template>
             </ng-container>
         </owl-carousel-o>
-        <owl-carousel-o [options]="customOptions2" class="flex items-center w-full overflow-hidden mt-[5rem]">
-            <ng-container *ngFor="let tile of customerGridTiles2">
+        <owl-carousel-o [options]="customOptions2" class="sl flex items-center w-full overflow-hidden mt-[5rem]">
+            <ng-container *ngFor="let tile of customerGridTiles2; let i = index">
                 <ng-template carouselSlide>
-                        <img [src]="tile.imgSource" class="slide2 !w-[90px] !h-[46px]" alt="">
+                    <div [ngClass]="{'custom-width' : i === 3}">
+                        <img [src]="tile.imgSource" class="slide2 w-[90px] h-[46px]" alt="">
+                    </div>    
                 </ng-template>
             </ng-container>
         </owl-carousel-o>
