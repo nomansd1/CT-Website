@@ -5,10 +5,8 @@
     background-position: center center;
     height: 100vh;
     position: fixed;
-    /* top: 0; */
-    left: 0;
-    right: 0;
-    bottom: -100%;
+    top: 0;
+    right: -100%;
     z-index: 1000;
     width: 100%;
     overflow: hidden;
