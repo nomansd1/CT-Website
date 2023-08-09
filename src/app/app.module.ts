@@ -90,6 +90,7 @@ import { CustomersLayoutComponent } from './components/customers/customers-layou
 import { CustomersBannerComponent } from './components/customers/customers-banner/customers-banner.component';
 import { CustomersGridComponent } from './components/customers/customers-grid/customers-grid.component';
 import { ScrollUpComponent } from './components/_shared/scroll-up/scroll-up.component';
+import { NgSelectModule } from '@ng-select/ng-select';
 
 @NgModule({
   declarations: [
@@ -184,7 +185,8 @@ import { ScrollUpComponent } from './components/_shared/scroll-up/scroll-up.comp
     FormsModule,
     HttpClientModule,
     CarouselModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    NgSelectModule
   ],
   providers: [],
   bootstrap: [AppComponent],

@@ -79,10 +79,12 @@
                         </div>
                     </div>
                     <div class="relative mb-4 w-full" data-te-input-wrapper-init>
-                        <select
+                        <!-- <select
                             [(ngModel)]="solutions"
                             name="solutions" 
                             [disabled]="productName != null"
+                            multiple
+                            [autofocus]="false"
                             id="solutions"
                             class="block px-2.5 pb-2.5 pt-4 w-full text-sm text-gray-400 bg-transparent rounded-lg border-2 border-gray-400 focus:ring-0 focus:border-gray-900 peer focus:outline-none"
                             placeholder=" "
@@ -92,7 +94,19 @@
                                 <option selected [value]="undefined"> {{ productName }} </option>
                             </ng-template>
                             <option *ngFor="let options of demoOptions"> {{ options }} </option>
-                        </select>
+                        </select> -->
+                        <ng-select
+                            [(ngModel)]="solutions"
+                            name="solutions" 
+                            [disabled]="productName != null"
+                            [multiple]="true"
+                            [autofocus]="false"
+                            id="solutions"
+                            class="block px-2.5 pb-2.5 pt-2.5 w-full text-sm text-gray-400 bg-transparent rounded-lg border-2 border-gray-400 focus:ring-0 focus:border-gray-900 peer focus:outline-none disabled:!cursor-not-allowed"
+                            [placeholder]="productName == null? 'Select your desired product(s), e.g: Sales & Distribution, POS, etc' : productName"
+                            >
+                            <ng-option *ngFor="let options of demoOptions"> {{ options }} </ng-option>
+                        </ng-select>
                     </div>
                     <div class="relative mb-4 w-full" data-te-input-wrapper-init>
                         <textarea id="message"

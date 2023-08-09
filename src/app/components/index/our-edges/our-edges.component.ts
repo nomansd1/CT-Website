@@ -1,4 +1,4 @@
-import { Component, ViewChild, AfterViewInit, QueryList, ViewChildren } from '@angular/core';
+import { Component, ViewChild, AfterViewInit, QueryList, ViewChildren, ElementRef } from '@angular/core';
 import { CountUpDirective } from 'ngx-countup';
 import { OwlOptions } from 'ngx-owl-carousel-o';
 
@@ -9,12 +9,13 @@ import { OwlOptions } from 'ngx-owl-carousel-o';
   styleUrls: ['./our-edges.component.css']
 })
 export class OurEdgesComponent implements AfterViewInit{ 
-
   // Use ViewChildren to get a list of all CountUpDirective elements
   @ViewChildren(CountUpDirective) countUpDirectives: QueryList<CountUpDirective>;
+  @ViewChild('swiperContainer') swiperContainer!: ElementRef;
+
 
   ngAfterViewInit(): void {
-    this.reanimate();
+    this.onSlideChange();
   }
 
   edgeGridTiles1 = [
@@ -34,11 +35,16 @@ export class OurEdgesComponent implements AfterViewInit{
     { title: 'e.suite Modules for S&D Business Optimization', stats: 7 },
     { title: 'ERP Modules Suite', stats: 6 },
   ]
-
-  reanimate() {
-    setInterval(() => {
-      // Iterate through each CountUpDirective element and reanimate
-      this.countUpDirectives.forEach(countUpDirective => countUpDirective.animate());
-    }, 2500);
+  onSwiper(swiper) {
+    console.log(swiper);
+  }
+  onSlideChange() {
+    this.swiperContainer.nativeElement.addEventListener('slidechange', (event: Event) => {
+        setTimeout(() => {
+          // Iterate through each CountUpDirective element and reanimate
+          this.countUpDirectives.forEach(countUpDirective => countUpDirective.animate());
+        }, 1200);
+        console.log('slide changed');
+      });
   }
 }

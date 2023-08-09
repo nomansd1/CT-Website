@@ -22,6 +22,8 @@ export class DemoFormComponent {
   solutions: any;
   message: string = '';
 
+  labels: any;
+
   demoOptions = [
     'S&D Next',
     'S&D e-suite',
@@ -63,6 +65,12 @@ export class DemoFormComponent {
       this.validateMessage.state = true;
       return;
     }
+    if (this.productName == null) {
+      this.solutions = this.solutions.map(option => option.$ngOptionLabel).join(', ');
+      console.log('solutions',this.solutions);
+      console.log(this.labels);
+    }
+    
     // Get the form values
     const formData = {
       CompanyCode: 61,
@@ -107,6 +115,7 @@ export class DemoFormComponent {
     let validCountry = this.country.length != 0;
     let validIndustry = this.industry.length != 0;
     let validMessage = this.message.length != 0;
-    return ( validName && validEmail2 && validCompany && validContact && validCountry && validIndustry && validMessage)
+    let validSolutions = this.solutions != undefined;
+    return ( validName && validEmail2 && validCompany && validContact && validCountry && validIndustry && validMessage && validSolutions )
   }
 }
