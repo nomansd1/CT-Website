@@ -32,7 +32,9 @@ export class PossGridComponent {
     { url: '../../../../assets/poss21.png', title: 'TAB order taking' },
     { url: '../../../../assets/poss22.png', title: 'comprehensive loyalty module' },
     { url: '../../../../assets/poss23.png', title: 'KDS kitchen display system' },
-    { url: '../../../../assets/poss24.png', title: 'reservation app' },
+    { url: '../../../../assets/poss24.png', title: 'waiting list app' },
+    { url: '../../../../assets/poss28.png', title: 'customer feedback module' },
+    { url: '../../../../assets/poss29.png', title: 'FACTS (Compilance/Audit Module)' },
   ]
   tiles3 = [
     { url: '../../../../assets/poss25.png', title: 'supply chain' },

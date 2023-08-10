@@ -13,8 +13,6 @@ export class ProductComponent implements OnInit {
   constructor( public router: Router ) {}
   
 ngOnInit(): void {
-  console.log(this.ourProducts.label);
-  
 }
 
   navigateToDemo(productName: string) {
