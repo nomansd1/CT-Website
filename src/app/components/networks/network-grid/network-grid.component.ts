@@ -39,7 +39,7 @@ export class NetworkGridComponent {
       address: [ 
         { title: 'ln5 tech Building, HD 11B First Floor,' },
         { title: 'Dubai Internet City.' },
-        { title: 'Dubai, U.A.E,' },
+        { title: 'Dubai, U.A.E.' },
         { title: '+971 55 548 8093'} 
       ]
                 
