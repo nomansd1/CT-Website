@@ -25,17 +25,17 @@ export class DemoFormComponent {
   labels: any;
 
   demoOptions = [
-    'S&D Next',
-    'S&D e-suite',
-    'POS Xtreme',
-    'POS Select',
-    'WMS Extended',
-    'SCM+',
-    'HCM+',
+    'S&D Next (Sales & Distribution)',
+    'S&D e-suite (Sales & Distribution)',
+    'POS Xtreme (Point of Solution for Shops & Supermarkets)',
+    'POS Select (Point of Solution for Food & Resturants Chain)',
+    'WMS Extended (Warehouse Management System)',
+    'SCM+ (Supply Chain Management)',
+    'HCM+ (Human Capital Management)',
     'Finance+',
     'Production+',
     'Import+',
-    'Primary+',
+    'Primary+ (Primary Sales)',
   ]
 
   validateMessage = { 
