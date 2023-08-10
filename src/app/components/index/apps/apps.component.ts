@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { AnimateOberverService } from 'src/app/services/animate-oberver.service';
 
 @Component({
   selector: 'app-apps',
@@ -7,6 +8,17 @@ import { Component } from '@angular/core';
 })
 export class AppsComponent {
   
+  shouldAnimate = false;
+
+  constructor(private animateObserver: AnimateOberverService) {}
+
+  ngOnInit(): void {
+    const animatedElement = document.getElementById('appsHeading');
+    const animatedElement2 = document.getElementById('appsGrid');
+    this.animateObserver.observeElementForAnimation(animatedElement, 'animate__slideInLeft');
+    this.animateObserver.observeElementForAnimation(animatedElement2, 'animate__slideInRight');
+  }
+
   appGridTiles = [
     {
       title: 'order booking app',

@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { AnimateOberverService } from 'src/app/services/animate-oberver.service';
 
 @Component({
   selector: 'app-our-values',
@@ -6,6 +7,18 @@ import { Component } from '@angular/core';
   styleUrls: ['./our-values.component.css']
 })
 export class OurValuesComponent {
+  shouldAnimate = false;
+
+  constructor( 
+    private animateObserver: AnimateOberverService
+  ) {}
+
+
+  ngOnInit(): void {
+    const animatedElement = document.getElementById('ourValues');
+    this.animateObserver.observeElementForAnimation(animatedElement, 'animate__slideInUp');
+  }
+  
   valuesGridTiles = [
     {
       count: '../../../../assets/abtinfo1.png',

@@ -1,10 +1,10 @@
 <section class="bg-[#ECF8FA] relative overflow-hidden">
     <div class="py-8 px-4 mx-auto  sm:py-16 lg:px-6 max-w-screen-xl">
-        <div class="mb-8">
+        <div id="csHeading" class="mb-8" [ngClass]="{ 'animate__animated': shouldAnimate }">
             <h2 class="text-4xl text-center tracking-tight font-extrabold text-gray-900">OUR CUSTOMERS</h2>
             <P class="text-lg text-center font-medium text-[#636468]">We are working with amazing companies.</P>
         </div>
-        <owl-carousel-o [options]="customOptions" class="flex items-center w-full overflow-hidden">
+        <owl-carousel-o [options]="customOptions" id="csGrid" class="flex items-center w-full overflow-hidden" [ngClass]="{ 'animate__animated': shouldAnimate }">
             <ng-container *ngFor="let tile of customerGridTiles1">
                 <ng-template carouselSlide>
                     <div>

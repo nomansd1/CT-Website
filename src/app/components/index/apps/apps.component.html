@@ -1,9 +1,9 @@
 <section class="bg-[#211C5D] grid items-center">
     <div class="py-8 px-4 mx-auto  sm:py-16 lg:px-6 max-w-screen-xl">
-        <div class="mb-8 lg:mb-16">
+        <div id="appsHeading" class="mb-8 lg:mb-16" [ngClass]="{ 'animate__animated': shouldAnimate }">
             <h2 class="mb-4 text-4xl text-center tracking-tight font-extrabold text-white">MOBILE APPLICATIONS</h2>
         </div>
-        <div class="gap-8 flex flex-wrap justify-center">
+        <div id="appsGrid" class="gap-8 flex flex-wrap justify-center" [ngClass]="{ 'animate__animated': shouldAnimate }">
             <div *ngFor="let tile of appGridTiles" class="w-[14rem] h-[14rem] p-6 text-center bg-white max-w-sm rounded-md">
                 <div class="flex justify-center items-center mb-4 w-28 h-28 mx-auto">
                     <img [src]="tile.imgSource" alt="">

@@ -1,6 +1,7 @@
-import { Component, ViewChild, AfterViewInit, QueryList, ViewChildren, ElementRef } from '@angular/core';
+import { Component, ViewChild, AfterViewInit, QueryList, ViewChildren, ElementRef, OnInit } from '@angular/core';
 import { CountUpDirective } from 'ngx-countup';
 import { OwlOptions } from 'ngx-owl-carousel-o';
+import { AnimateOberverService } from 'src/app/services/animate-oberver.service';
 
 
 @Component({
@@ -8,7 +9,18 @@ import { OwlOptions } from 'ngx-owl-carousel-o';
   templateUrl: './our-edges.component.html',
   styleUrls: ['./our-edges.component.css']
 })
-export class OurEdgesComponent implements AfterViewInit{ 
+export class OurEdgesComponent implements AfterViewInit, OnInit{ 
+  shouldAnimate = false;
+
+  constructor(private animateObserver: AnimateOberverService) {}
+
+  ngOnInit(): void {
+    const animatedElement = document.getElementById('edgeHeading');
+    const animatedElement2 = document.getElementById('edgeGrid');
+    this.animateObserver.observeElementForAnimation(animatedElement, 'animate__slideInLeft');
+    this.animateObserver.observeElementForAnimation(animatedElement2, 'animate__slideInRight');
+  }
+
   // Use ViewChildren to get a list of all CountUpDirective elements
   @ViewChildren(CountUpDirective) countUpDirectives: QueryList<CountUpDirective>;
   @ViewChild('swiperContainer') swiperContainer!: ElementRef;

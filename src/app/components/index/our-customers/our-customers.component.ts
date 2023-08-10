@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { OwlOptions } from 'ngx-owl-carousel-o';
+import { AnimateOberverService } from 'src/app/services/animate-oberver.service';
 
 @Component({
   selector: 'app-our-customers',
@@ -7,8 +8,17 @@ import { OwlOptions } from 'ngx-owl-carousel-o';
   styleUrls: ['./our-customers.component.css']
 })
 export class OurCustomersComponent {
-
+  shouldAnimate = false;
   hideAllIcons = true;
+
+  constructor(private animateObserver: AnimateOberverService) {}
+
+  ngOnInit(): void {
+    const animatedElement = document.getElementById('csHeading');
+    const animatedElement2 = document.getElementById('csGrid');
+    this.animateObserver.observeElementForAnimation(animatedElement, 'animate__slideInLeft');
+    this.animateObserver.observeElementForAnimation(animatedElement2, 'animate__slideInUp');
+  }
 
   customOptions: OwlOptions = {
     loop: true,

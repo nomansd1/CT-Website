@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { AnimateOberverService } from 'src/app/services/animate-oberver.service';
 
 @Component({
   selector: 'app-our-services',
@@ -6,7 +7,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./our-services.component.css']
 })
 export class OurServicesComponent {
-  
+  shouldAnimate = false;
+
+  constructor(private animateObserver: AnimateOberverService) {}
+
+  ngOnInit(): void {
+    const animatedElement = document.getElementById('serviceHeading');
+    const animatedElement2 = document.getElementById('servicesGrid');
+    this.animateObserver.observeElementForAnimation(animatedElement, 'animate__slideInLeft');
+    this.animateObserver.observeElementForAnimation(animatedElement2, 'animate__slideInRight');
+  }
   servicesGridTiles = [
     {
       title: 'cloud based sofwtare solutions',

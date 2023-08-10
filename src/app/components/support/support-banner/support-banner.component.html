@@ -1,5 +1,5 @@
 <section class="support_banner flex justify-center items-center bg-gray-900">
-    <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
+    <div id="banner" [ngClass]="{ 'animate__animated': shouldAnimate }" class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
         <h1 class="max-w-screen-lg mx-auto text-center mb-4 mt-16 text-4xl font-extrabold tracking-tight capitalize leading-none md:text-5xl lg:text-6xl text-white">experience the difference with our customer services.</h1>
         <div class="flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
             <button (click)="scroll()" class="mt-5 inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg border-4 border-gray-300 hover:bg-white hover:text-gray-900">

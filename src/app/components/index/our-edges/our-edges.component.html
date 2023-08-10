@@ -1,9 +1,9 @@
 <section class="relative grid max-w-screen-xl lg:grid-cols-12 mx-auto px-4 py-8 lg:py-16 lg:h-screen items-center">
   <img class="hidden md:block w-full h-full absolute inset-0 -z-10 object-contain px-[8%] mx-auto" src="../../../../assets/wm.png" alt="">    
-  <div class="lg:col-span-6 justify-center items-center grid">
+  <div id="edgeHeading"  class="lg:col-span-6 justify-center items-center grid" [ngClass]="{ 'animate__animated': shouldAnimate }">
         <h1 class="mb-4 text-[#636468] text-4xl font-semibold uppercase tracking-tight leading-none md:text-6xl xl:text-8xl text-center">our edges</h1>
     </div>
-    <div class="lg:col-span-6">
+    <div id="edgeGrid" class="lg:col-span-6" [ngClass]="{ 'animate__animated': shouldAnimate }">
         <section class="py-8">
             <div class="container grid mx-auto">
               <swiper-container class="w-full max-w-[100vw] overflow-hidden max-h-[100vh] min-w-0 min-h-0"
