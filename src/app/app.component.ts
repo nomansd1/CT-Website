@@ -10,6 +10,7 @@ export class AppComponent implements AfterViewInit, OnInit {
   isLoading: boolean = true;
   sidebarVisible = false;
 
+  
   ngOnInit() {
     setTimeout(() => {
       this.isLoading = false;
