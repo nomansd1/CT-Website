@@ -193,3 +193,6 @@ button, a {
         transform: translate3d(0,100%,0)
     }
 }
+.bg__size {
+    background-size: 100% !important;
+}

@@ -2,5 +2,7 @@
     background-image: url('../../../../assets/hero-section.webp');
     background-position: top center;
     height: 100vh;
+    background-size: 200%;
+    transition: all 2.5s ease-in-out;
     /* margin-top: -60px; */
 }
