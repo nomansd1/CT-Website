@@ -33,13 +33,13 @@ export class ScmGridComponent {
   ]
 
   tiles2 = [
-    { url: '../../../../assets/scm19.png', title: '' },
-    { url: '../../../../assets/scm11.png', title: '' },
-    { url: '../../../../assets/scm21.png', title: '' },
-    { url: '../../../../assets/scm18.png', title: '' },
-    { url: '../../../../assets/scm22.png', title: '' },
-    { url: '../../../../assets/scm15.png', title: '' },
-    { url: '../../../../assets/scm16.png', title: '' },
-    { url: '../../../../assets/scm17.png', title: '' },
+    { url: '../../../../assets/scm19.png', title: 'purchase requisition' },
+    { url: '../../../../assets/scm11.png', title: 'purchase order' },
+    { url: '../../../../assets/scm21.png', title: 'GRN' },
+    { url: '../../../../assets/scm18.png', title: 'goods recieved' },
+    { url: '../../../../assets/scm22.png', title: 'HHT stock audit' },
+    { url: '../../../../assets/scm15.png', title: 'demand' },
+    { url: '../../../../assets/scm16.png', title: 'transfer in' },
+    { url: '../../../../assets/scm17.png', title: 'transfer out' },
   ]
 }

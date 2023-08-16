@@ -10,7 +10,7 @@ export class FinanceGridComponent {
     { url: '../../../../assets/fin1.png', title: 'cloud based app' },
     { url: '../../../../assets/fin2.png', title: 'works in live environment' },
     { url: '../../../../assets/fin3.png', title: 'accounts payable' },
-    { url: '../../../../assets/fin4.png', title: 'accounts reeivable' },
+    { url: '../../../../assets/fin4.png', title: 'accounts receivable' },
     { url: '../../../../assets/fin5.png', title: 'GL ledger' },
     { url: '../../../../assets/fin6.png', title: '9 level chart of accounts' },
     { url: '../../../../assets/fin7.png', title: 'balance sheet' },
