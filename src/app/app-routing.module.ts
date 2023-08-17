@@ -23,6 +23,7 @@ import { SndeLayoutComponent } from './components/s&d-esuite/snde-layout/snde-la
 import { ScmLayoutComponent } from './components/scn+/scm-layout/scm-layout.component';
 import { WmsLayoutComponent } from './components/wms-extended/wms-layout/wms-layout.component';
 import { CustomersLayoutComponent } from './components/customers/customers-layout/customers-layout.component';
+import { OmLayoutComponent } from './components/other-modules/om-layout/om-layout.component';
 
 const routes: Routes = [
   { path: '', component: IndexLayoutComponent },
@@ -48,6 +49,7 @@ const routes: Routes = [
   { path: 'softwares/s&d%esuite', component: SndeLayoutComponent },
   { path: 'softwares/scm' , component: ScmLayoutComponent },
   { path: 'softwares/wms', component: WmsLayoutComponent },
+  { path: 'softwares/other%modules', component: OmLayoutComponent },
   { path: 'customers', component: CustomersLayoutComponent },
 ];
 

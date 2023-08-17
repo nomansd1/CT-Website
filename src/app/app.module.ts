@@ -91,6 +91,9 @@ import { CustomersBannerComponent } from './components/customers/customers-banne
 import { CustomersGridComponent } from './components/customers/customers-grid/customers-grid.component';
 import { ScrollUpComponent } from './components/_shared/scroll-up/scroll-up.component';
 import { NgSelectModule } from '@ng-select/ng-select';
+import { OmLayoutComponent } from './components/other-modules/om-layout/om-layout.component';
+import { OmBannerComponent } from './components/other-modules/om-banner/om-banner.component';
+import { OmGridComponent } from './components/other-modules/om-grid/om-grid.component';
 
 @NgModule({
   declarations: [
@@ -177,6 +180,9 @@ import { NgSelectModule } from '@ng-select/ng-select';
     CustomersBannerComponent,
     CustomersGridComponent,
     ScrollUpComponent,
+    OmLayoutComponent,
+    OmBannerComponent,
+    OmGridComponent,
   ],
   imports: [
     BrowserModule,
