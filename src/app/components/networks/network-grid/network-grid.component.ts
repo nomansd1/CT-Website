@@ -11,12 +11,26 @@ export class NetworkGridComponent {
       flag: '../../../../assets/pkflag.png',
       office: 'head office',
       map: '../../../../assets/pakmap.png',
+      regHead: 'regional office',
+      regionalOffice: 'Lahore',
       address: [
         { title: 'Suite No B-5/4. FL-9/6 (Junaid Plaza),' },
         { title: 'Gulshan-E-Iqbal Block 6,' },
         { title: 'Mian Rashid Minhas Road,' },
         { title: 'Karachi-75300, Pakistan.' },
         { title: '+92 21 34971995' }
+      ],
+      branchHead: 'branch offices',
+      branchOffices: [
+        { title: 'Multan' },
+        { title: 'Sukkur' },
+        { title: 'Peshawar' },
+        { title: 'Abbottabad' },
+        { title: 'Islamabad' },
+        { title: 'Gujranwala' },
+        { title: 'Faislabad' },
+        { title: 'Sahiwal' },
+        { title: 'Hyderabad' },
       ]
     },
     { title: 'Saudia Arabia',
@@ -35,6 +49,7 @@ export class NetworkGridComponent {
     { title: 'United Arab Emirates',
       flag: '../../../../assets/uaeflag.png',
       office: 'country office',
+      partner: '(JV partner)',
       map: '../../../../assets/uaemap.png',
       address: [ 
         { title: 'ln5 tech Building, HD 11B First Floor,' },

@@ -17,5 +17,7 @@ export class AlliancesGridComponent {
   ventures = [
     { title: 'united arab emirates', img: '../../../../assets/vent1.png' },
     { title: 'saudia arabia', img: '../../../../assets/vent2.png' },
+    { title: 'qatar', img: '../../../../assets/vent3.PNG' },
+    { title: 'pakistan', img: '../../../../assets/vent4.png' },
   ]
 }

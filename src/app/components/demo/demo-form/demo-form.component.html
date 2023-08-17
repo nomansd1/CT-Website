@@ -95,6 +95,7 @@
                             </ng-template>
                             <option *ngFor="let options of demoOptions"> {{ options }} </option>
                         </select> -->
+                        <label for="" class="text-gray-900 text-sm font-medium before:content-['\2022'] before:text-lg before:mr-1.5" >You can select multiple solutions too</label>
                         <ng-select
                             [(ngModel)]="solutions"
                             name="solutions" 
@@ -104,6 +105,7 @@
                             id="solutions"
                             class="block px-2.5 pb-2.5 pt-2.5 w-full text-sm text-gray-400 bg-transparent rounded-lg border-2 border-gray-400 focus:ring-0 focus:border-gray-900 peer focus:outline-none disabled:!cursor-not-allowed"
                             [placeholder]="productName == null? 'Select your desired product(s), e.g: Sales & Distribution, POS, etc' : productName"
+                            tooltip="You can select multiple solutions too"
                             >
                             <ng-option *ngFor="let options of demoOptions"> {{ options }} </ng-option>
                         </ng-select>

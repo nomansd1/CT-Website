@@ -19,6 +19,16 @@
                 <span class="text-base block" *ngFor="let add of network.address">
                     {{add.title}}
                 </span>
+                <h1 class="text-xl font-medium uppercase mt-2"> {{ network.regHead }} </h1>
+                <ul *ngIf="network.regionalOffice" class="ml-5">
+                    <li class="text-base list-disc">{{ network.regionalOffice }}</li>
+                </ul>
+                <h1 class="text-xl font-medium uppercase mt-2">{{ network.branchHead }}</h1>
+                <ul *ngIf="network.regionalOffice" class="ml-5">
+                    <li class="text-base list-disc" *ngFor="let off of network.branchOffices">
+                        {{off.title}}
+                    </li>
+                </ul>
             </div>
         </div>
         <div class="grid items-center justify-center w-full h-full col-span-7">

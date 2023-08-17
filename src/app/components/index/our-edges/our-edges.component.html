@@ -1,5 +1,5 @@
 <section class="relative grid max-w-screen-xl lg:grid-cols-12 mx-auto px-4 py-8 lg:py-16 lg:h-screen items-center">
-  <img class="hidden md:block w-full h-full absolute inset-0 -z-10 object-contain px-[8%] mx-auto" src="../../../../assets/wm.png" alt="">    
+  <img (mouseenter)="isHovered = true" (mouseleave)="isHovered = false" class="hidden md:flex items-center w-full absolute top=[50%] h-fit object-contain px-[8%] mx-auto transition-all duration-300 ease-linear" [src]="isHovered? '../../../../assets/wmhover.png' : '../../../../assets/wm.png'"> 
   <div id="edgeHeading"  class="lg:col-span-6 justify-center items-center grid" [ngClass]="{ 'animate__animated': shouldAnimate }">
         <a routerLink="" class="mb-4 text-[#636468] text-4xl font-semibold uppercase tracking-tight leading-none md:text-6xl xl:text-8xl text-center">our edges</a>
     </div>
@@ -22,7 +22,7 @@
                     <div class="flex flex-col lg:flex-row flex-wrap justify-center items-center">
                       <div *ngFor="let tile of edgeGridTiles1" class="w-full lg:w-1/2 px-4 md:mb-8 text-center">
                           <div class="p-7 text-center">
-                              <span #countUp1 [countUp]="tile.stats" [options]="{ enableScrollSpy: true, separator: ',', suffix: '+', scrollSpyDelay: 200}" class="text-7xl font-bold text-[#22B8EE]">{{ tile.stats }}+</span>
+                              <span #countUp1 [countUp]="tile.stats" [options]="{ enableScrollSpy: false, separator: ',', suffix: '+', startVal: 0, duration: 3, }" class="text-7xl font-bold text-[#22B8EE]"></span>
                               <p class="mt-2 text-gray-800 font-semibold text-sm"> {{ tile.title }} </p>
                           </div>
                       </div>
@@ -32,7 +32,7 @@
                     <div class="flex flex-col lg:flex-row flex-wrap justify-center items-center">
                       <div *ngFor="let tile of edgeGridTiles2" class="w-full lg:w-1/2 px-4 md:mb-8 text-center">
                           <div class="p-7 text-center">
-                              <span #countUp2 [countUp]="tile.stats" [options]="{ enableScrollSpy: true, separator: ',', suffix: '+', scrollSpyDelay: 200, }" class="text-7xl font-bold text-[#22B8EE]">{{ tile.stats }}+</span>
+                              <span #countUp2 [countUp]="tile.stats" [options]="{ enableScrollSpy: false, separator: ',', suffix: '+', startVal: 0, duration: 3 }" class="text-7xl font-bold text-[#22B8EE]">{{0}}</span>
                               <p class="mt-2 text-gray-800 font-semibold text-sm"> {{ tile.title }} </p>
                           </div>
                       </div>
@@ -42,7 +42,7 @@
                     <div class="flex flex-col lg:flex-row flex-wrap justify-center items-center">
                       <div *ngFor="let tile of edgeGridTiles3" class="w-full lg:w-1/2 px-4 md:mb-8 text-center">
                           <div class="p-7 text-center">
-                              <span #countUp3 [countUp]="tile.stats" [options]="{ enableScrollSpy: true, separator: ',', suffix: '+', scrollSpyDelay: 200, }" class="text-7xl font-bold text-[#22B8EE]">{{ tile.stats }}+</span>
+                              <span #countUp3 [countUp]="tile.stats" [options]="{ enableScrollSpy: false, separator: ',', suffix: '+', startVal: 0, duration: 3 }" class="text-7xl font-bold text-[#22B8EE]">{{0}}</span>
                               <p class="mt-2 text-gray-800 font-semibold text-sm"> {{ tile.title }} </p>
                           </div>
                       </div>

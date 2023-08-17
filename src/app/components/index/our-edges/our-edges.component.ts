@@ -11,6 +11,7 @@ import { AnimateOberverService } from 'src/app/services/animate-oberver.service'
 })
 export class OurEdgesComponent implements AfterViewInit, OnInit{ 
   shouldAnimate = false;
+  isHovered = false;
 
   constructor(private animateObserver: AnimateOberverService) {}
 
@@ -24,7 +25,6 @@ export class OurEdgesComponent implements AfterViewInit, OnInit{
   // Use ViewChildren to get a list of all CountUpDirective elements
   @ViewChildren(CountUpDirective) countUpDirectives: QueryList<CountUpDirective>;
   @ViewChild('swiperContainer') swiperContainer!: ElementRef;
-
 
   ngAfterViewInit(): void {
     this.onSlideChange();

@@ -8,6 +8,7 @@ import { AnimateOberverService } from 'src/app/services/animate-oberver.service'
 })
 export class AboutComponent {
   shouldAnimate = false;
+  isHovered = false;
 
   constructor(private animateObserver: AnimateOberverService) {}
 
