@@ -46,7 +46,7 @@ const routes: Routes = [
   { path: 'softwares/primary', component: PrimaryLayoutComponent },
   { path: 'softwares/s&d%next', component: SndLayoutComponent },
   { path: 'softwares/s&d%esuite', component: SndeLayoutComponent },
-  { path: 'softwares/scm', component: ScmLayoutComponent },
+  { path: 'softwares/scm' , component: ScmLayoutComponent },
   { path: 'softwares/wms', component: WmsLayoutComponent },
   { path: 'customers', component: CustomersLayoutComponent },
 ];
