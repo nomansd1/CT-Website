@@ -3,13 +3,13 @@
         <div class="mb-8">
             <h2 class="mb-4 text-4xl text-center tracking-tight font-extrabold text-gray-900">ON-BOARDING PROCESS</h2>
         </div>
-        <ul class="w-full flex flex-wrap items-center justify-center gap-16 stepper pb-16">
-            <li *ngFor="let process of processes;" class="my-5 w-[200px] h-[200px] max-w-[270px] max-h-[270px] flex flex-col justify-start items-center relative">
-              <div class="flex items-center justify-center rounded-full border-[5px] border-[#0A0A0A] p-10 w-fit h-fit">
-                <img [src]="process.url" class="w-28 h-28" alt="">
+        <ul class="w-full md:w-[70%] mx-auto flex flex-wrap items-center justify-center gap-16 md:gap-24 stepper pb-16">
+            <li *ngFor="let process of processes;" class="my-5 w-[120px] h-[120px] max-w-[270px] max-h-[270px] flex flex-col justify-start items-center relative">
+              <div class="flex items-center justify-center rounded-full border-[5px] border-[#0A0A0A] p-6 w-fit h-fit">
+                <img [src]="process.url" class="w-16 h-16" alt="">
               </div>
-              <span class="absolute left-0 -bottom-4 inline-flex justify-center items-center rounded-full font-medium w-8 h-8 bg-[#0A0A0A] text-white"> {{ process.id }} </span>
-              <p class="text-xl capitalize font-semibold mt-3 max-w-[150px] text-center"> {{ process.title }} </p>
+              <span class="absolute -left-3 -bottom-5 inline-flex justify-center items-center rounded-full font-medium w-8 h-8 bg-[#0A0A0A] text-white"> {{ process.id }} </span>
+              <p class="text-xl capitalize font-semibold mt-4 max-w-[150px] text-center"> {{ process.title }} </p>
             </li>
         </ul>          
     </div>

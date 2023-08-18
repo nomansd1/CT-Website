@@ -3,17 +3,20 @@ import { CountUpDirective } from 'ngx-countup';
 import { OwlOptions } from 'ngx-owl-carousel-o';
 import { AnimateOberverService } from 'src/app/services/animate-oberver.service';
 
-
 @Component({
   selector: 'app-our-edges',
   templateUrl: './our-edges.component.html',
-  styleUrls: ['./our-edges.component.css']
+  styleUrls: ['./our-edges.component.css'],
 })
 export class OurEdgesComponent implements AfterViewInit, OnInit{ 
   shouldAnimate = false;
   isHovered = false;
+  countInitialValue = 0;
+  counterVisible = false
 
-  constructor(private animateObserver: AnimateOberverService) {}
+  constructor(
+    private animateObserver: AnimateOberverService,
+  ) {}
 
   ngOnInit(): void {
     const animatedElement = document.getElementById('edgeHeading');
@@ -52,11 +55,12 @@ export class OurEdgesComponent implements AfterViewInit, OnInit{
   }
   onSlideChange() {
     this.swiperContainer.nativeElement.addEventListener('slidechange', (event: Event) => {
-        setTimeout(() => {
+      this.counterVisible = false;  
+      setTimeout(() => {
           // Iterate through each CountUpDirective element and reanimate
+          this.counterVisible = true
           this.countUpDirectives.forEach(countUpDirective => countUpDirective.animate());
         }, 1200);
-        console.log('slide changed');
-      });
+    });
   }
 }
