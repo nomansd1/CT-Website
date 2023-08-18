@@ -1,6 +1,6 @@
 <section class="bg-white">
-    <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-4 xl:gap-0 lg:py-16 lg:grid-cols-12 justify-center">
-        <div id="prdDetails" [ngClass]="ourProducts.rowReverse? 'order-2 animateRight' : 'order-1 animateLeft'" class="animate__animated animateLeft lg:col-span-7 place-self-center my-2 md:my-0">
+    <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-4 xl:gap-0 lg:py-16 lg:grid-cols-12 justify-around bg-red-500 items-center">
+        <div id="prdDetails" [ngClass]="ourProducts.rowReverse? 'order-2 animateRight' : 'order-1 animateLeft'" class="animate__animated animateLeft lg:col-span-5 my-2 md:my-0 bg-blue-500">
             <img class="w-[200px] md:w-[250px]" [src]="ourProducts.imgSource" alt="">
             <p class=" mb-2 text-[#636468] my-3 text-justify">{{ ourProducts.desc }}.</p> 
             <div class="flex">
@@ -8,7 +8,7 @@
                 <button (click)="navigateToProduct(ourProducts.url)" [ngClass]="[ourProducts.textColor, ourProducts.borderColor]" class="mt-2 px-5 py-2.5 text-sm font-medium hover:ring-2 focus:outline-none rounded-lg text-center ml-2">Read More</button>
             </div>
         </div>
-        <div id="prdGrid" [ngClass]="[ourProducts.rowReverse? 'order-1 animateLeft' : 'order-2 animateRight', ourProducts.flexEnd? 'justify-end' : '']" class="animate__animated lg:mt-0 lg:col-span-5 lg:flex my-3">
+        <div id="prdGrid" [ngClass]="[ourProducts.rowReverse? 'order-1 animateLeft' : 'order-2 animateRight']" class="animate__animated lg:mt-0 lg:col-span-5 lg:flex justify-center bg-green-500">
             <img class="max-w-xs max-h-[325px]" [src]="ourProducts.gridImgSource" alt="mockup">
         </div>                
     </div>
