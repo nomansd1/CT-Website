@@ -16,7 +16,7 @@ export class OurValuesComponent {
 
   ngOnInit(): void {
     const animatedElement = document.getElementById('ourValues');
-    this.animateObserver.observeElementForAnimation(animatedElement, 'animate__slideInUp');
+    this.animateObserver.observeElementForAnimation(animatedElement, 'animate__slideInRight');
   }
   
   valuesGridTiles = [

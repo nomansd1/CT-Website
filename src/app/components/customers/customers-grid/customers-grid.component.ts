@@ -10,6 +10,7 @@ export class CustomersGridComponent {
     { imgSource: '../../../../assets/c1.png' },
     { imgSource: '../../../../assets/c2.png' },
     { imgSource: '../../../../assets/c3.png' },
+    { imgSource: '../../../../assets/c79.png' },
     { imgSource: '../../../../assets/c4.png' },
     { imgSource: '../../../../assets/c5.png' },
     { imgSource: '../../../../assets/c6.png' },
@@ -86,6 +87,6 @@ export class CustomersGridComponent {
     { imgSource: '../../../../assets/c74.png' },
     { imgSource: '../../../../assets/c75.jpg' },
     { imgSource: '../../../../assets/c77.png' },
-    { imgSource: '../../../../assets/c78.jpg' },
+    { imgSource: '../../../../assets/c78.png' },
   ]
 }

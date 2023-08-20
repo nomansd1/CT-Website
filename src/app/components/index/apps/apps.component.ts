@@ -53,6 +53,22 @@ export class AppsComponent {
       imgSource: '../../../../assets/app8.png',
     },
     { 
+      title: 'pharmacist app', 
+      imgSource: '../../../../assets/app12.png',
+    },
+    { 
+      title: 'phlebotomy app', 
+      imgSource: '../../../../assets/app13.png',
+    },
+    { 
+      title: 'consultant app', 
+      imgSource: '../../../../assets/app14.png',
+    },
+    { 
+      title: 'dressing app', 
+      imgSource: '../../../../assets/app15.png',
+    },
+    { 
       title: 'sales incentive app', 
       imgSource: '../../../../assets/app9.png',
     },
@@ -64,21 +80,5 @@ export class AppsComponent {
       title: 'cane procurement staff tracking app', 
       imgSource: '../../../../assets/app11.png',
     },
-    { 
-      title: 'pharmacist app', 
-      imgSource: '../../../../assets/app12.png',
-    },
-    { 
-      title: 'phlebotomy app', 
-      imgSource: '../../../../assets/app13.png',
-    },
-    { 
-      title: 'waiting list app', 
-      imgSource: '../../../../assets/app14.png',
-    },
-    { 
-      title: 'dressing app', 
-      imgSource: '../../../../assets/app15.png',
-    }
   ]
 }

@@ -9,15 +9,15 @@
 
 @media (min-width:768px) {
     .partners__logo img {
-        width: 15%;
+        width: 17%;
     }
     .partners__logo img:nth-child(1) {
-        width: 13%;
+        width: 14%;
     }
     .partners__logo img:nth-child(2) {
-        width: 9%;
+        width: 11%;
     }
     .partners__logo img:nth-child(6) {
-        width: 13%;
+        width: 14%;
     }
 }

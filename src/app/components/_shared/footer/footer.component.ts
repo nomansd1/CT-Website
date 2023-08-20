@@ -13,6 +13,8 @@ export class FooterComponent {
       { source: '../../../../assets/p4.png' },
       { source: '../../../../assets/p5.png' },
       { source: '../../../../assets/p6.png' },
+      { source: '../../../../assets/p7.png' },
+      { source: '../../../../assets/p8.png' },
     ]
 
   

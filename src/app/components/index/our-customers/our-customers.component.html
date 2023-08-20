@@ -16,8 +16,8 @@
         <owl-carousel-o [options]="customOptions2" class="sl flex items-center w-full overflow-hidden mt-[5rem]">
             <ng-container *ngFor="let tile of customerGridTiles2; let i = index">
                 <ng-template carouselSlide>
-                    <div [ngClass]="{'custom-width' : i === 3}">
-                        <img [src]="tile.imgSource" class="slide2 w-[90px] h-[46px]" alt="">
+                    <div>
+                        <img [ngClass]="{'object-contain' : i === 3}" [src]="tile.imgSource" class="slide2 w-[90px] h-[46px]" alt="">
                     </div>    
                 </ng-template>
             </ng-container>

@@ -49,7 +49,7 @@ const routes: Routes = [
   { path: 'softwares/s&d%esuite', component: SndeLayoutComponent },
   { path: 'softwares/scm' , component: ScmLayoutComponent },
   { path: 'softwares/wms', component: WmsLayoutComponent },
-  { path: 'softwares/other%modules', component: OmLayoutComponent },
+  { path: 'softwares/om', component: OmLayoutComponent },
   { path: 'customers', component: CustomersLayoutComponent },
 ];
 
