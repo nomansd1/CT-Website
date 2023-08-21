@@ -5,7 +5,7 @@
         </div>
     </div>
 </section>
-<div *ngFor="let network of networks; let i = index" [ngClass]="{'bg-[#EAECED]': i === 1 }" class="w-full">
+<div *ngFor="let network of networks; let i = index" [ngClass]="{'bg-[#EAECED]': i % 2 != 0 }" class="w-full">
     <div class="py-16 h-screen px-4 mx-auto lg:px-6 max-w-screen-xl flex flex-col justify-between items-center md:grid md:grid-cols-12">
         <div class="w-full h-full col-span-5">
             <div class="flex items-center">
