@@ -37,7 +37,7 @@ export class AppsComponent {
       imgSource: '../../../../assets/app4.png',
     },
     { 
-      title: 'SCM app', 
+      title: 'Supply Chain Management app', 
       imgSource: '../../../../assets/app5.png',
     },
     { 

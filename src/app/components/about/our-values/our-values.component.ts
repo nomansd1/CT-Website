@@ -30,13 +30,13 @@ export class OurValuesComponent {
       count: '../../../../assets/abtinfo2.png',
       icon: '../../../../assets/abt2.png',
       title: 'Excellence',
-      desc: 'Plan ahead, Contiously inmporve, Sweat the details.',
+      desc: 'Plan ahead, Continuously improve, Sweat the details.',
     },
     {
       count: '../../../../assets/abtinfo3.png',
       icon: '../../../../assets/abt3.png',
       title: 'Teamwork',
-      desc: 'Trust eachother, Work together, Be coachable.',
+      desc: 'Trust each other, Work together, Be coachable.',
     },
     {
       count: '../../../../assets/abtinfo4.png',

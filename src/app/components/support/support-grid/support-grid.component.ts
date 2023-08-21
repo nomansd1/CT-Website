@@ -12,8 +12,6 @@ export class SupportGridComponent {
   ]
   supportMediums = [
     { title: 'service desk portal', url: '../../../../assets/sp3.png' },
-    { title: 'Whatsapp', url: '../../../../assets/sp4.png' },
-    { title: 'skype', url: '../../../../assets/sp5.png' },
     { title: 'email', url: '../../../../assets/sp6.png' },
     { title: 'live call', url: '../../../../assets/sp7.png' },
     { title: 'on site', url: '../../../../assets/sp8.png' },

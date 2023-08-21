@@ -20,7 +20,7 @@ export class FooterComponent {
   
   quickLinks = [
     { title: 'About Us', url: 'about' },
-    { title: 'Softwares', url: '' },
+    { title: 'Softwares', url: 'softwares' },
     { title: 'Careers', url: 'careers' },
     { title: 'Become a partner', url: 'partner' },
     { title: "FAQ's", url: '' },

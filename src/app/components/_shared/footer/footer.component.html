@@ -46,16 +46,16 @@
                     </ul>
                 </div>
                 <div>
-                    <h2 class="mb-6 text-lg font-semibold capitalize text-white">Contact Info.</h2>
+                    <h3 class="mb-6 text-base font-semibold capitalize text-white">Head Office</h3>
+                    <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                        <li *ngFor="let info of officeInfo" class="mb-1"> {{ info.val }} </li>
+                    </ul>
+                    <h2 class="my-6 text-lg font-semibold capitalize text-white">Contact Info.</h2>
                     <ul class="text-gray-500 dark:text-gray-400 font-medium">
                         <li *ngFor="let link of contactInfo" class="mb-1 flex">
                             <span class="mr-2"> {{ link.label }} </span>
                             <a href="#" class="hover:underline"> {{ link.val }} </a>
                         </li>
-                    </ul>
-                    <h3 class="my-6 text-base font-semibold capitalize text-white">Head Office</h3>
-                    <ul class="text-gray-500 dark:text-gray-400 font-medium">
-                        <li *ngFor="let info of officeInfo" class="mb-1"> {{ info.val }} </li>
                     </ul>
                 </div>
             </div>
