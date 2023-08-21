@@ -35,7 +35,7 @@ export class OurEdgesComponent implements AfterViewInit, OnInit{
 
   edgeGridTiles1 = [
     { title: 'Years of Industry Experience', stats: 25 },
-    { title: 'Mobile Applications', stats: 11 },
+    { title: 'Mobile Applications', stats: 15 },
     { title: 'Diversified Business Verticals Powered by Our S&D', stats: 15 },
     { title: 'S&D Add-On Modules', stats: 7 },
   ]

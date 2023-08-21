@@ -76,9 +76,9 @@ export class DemoFormComponent {
       CompanyCode: 61,
       OfficeCode: 100061,
       Subject: 'Software Demo Request',
-      CC: 'noman.sd114@gmail.com',
+      CC: 'ahsan.siraj@cloudtenants.com',
       FromNames: 'noreply@cloudtenants.com',
-      ToNames: 'noman.ali@cloudtenants.com',
+      ToNames: 'sales@cloudtenants.com',
       Body: '',
       Template: 'DEMO_REQUEST',
       KeyValuesData: {

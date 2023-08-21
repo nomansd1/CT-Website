@@ -48,13 +48,31 @@ button, a {
     --animate-repeat: 1
 }
 
-.animate__animated {
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-    -webkit-animation-duration: var(--animate-duration);
-    animation-duration: var(--animate-duration);
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both
+@media (min-width: 768px) {
+    .animate__animated {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-duration: var(--animate-duration);
+        animation-duration: var(--animate-duration);
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both
+    }
+    .animate__slideInDown {
+        -webkit-animation-name: slideInDown;
+        animation-name: slideInDown
+    }
+    .animate__slideInLeft {
+        -webkit-animation-name: slideInLeft;
+        animation-name: slideInLeft
+    }
+    .animate__slideInRight {
+        -webkit-animation-name: slideInRight;
+        animation-name: slideInRight
+    }
+    .animate__slideInUp {
+        -webkit-animation-name: slideInUp;
+        animation-name: slideInUp
+    }
 }
 
 @-webkit-keyframes slideInDown {
@@ -83,11 +101,6 @@ button, a {
     }
 }
 
-.animate__slideInDown {
-    -webkit-animation-name: slideInDown;
-    animation-name: slideInDown
-}
-
 @-webkit-keyframes slideInLeft {
     0% {
         -webkit-transform: translate3d(-100%,0,0);
@@ -114,10 +127,6 @@ button, a {
     }
 }
 
-.animate__slideInLeft {
-    -webkit-animation-name: slideInLeft;
-    animation-name: slideInLeft
-}
 
 @-webkit-keyframes slideInRight {
     0% {
@@ -143,11 +152,6 @@ button, a {
         -webkit-transform: translateZ(0);
         transform: translateZ(0)
     }
-}
-
-.animate__slideInRight {
-    -webkit-animation-name: slideInRight;
-    animation-name: slideInRight
 }
 
 @-webkit-keyframes slideInUp {
@@ -176,11 +180,6 @@ button, a {
     }
 }
 
-.animate__slideInUp {
-    -webkit-animation-name: slideInUp;
-    animation-name: slideInUp
-}
-
 @-webkit-keyframes slideOutDown {
     0% {
         -webkit-transform: translateZ(0);
@@ -193,6 +192,8 @@ button, a {
         transform: translate3d(0,100%,0)
     }
 }
-.bg__size {
-    background-size: 100% !important;
+@media (min-width: 768px) {
+    .bg__size {
+        background-size: 100% !important;
+    }
 }

@@ -1,9 +1,12 @@
 .hero__section {
     background-image: url('../../../../assets/hero-section.webp');
     background-position: top center;
-    height: 100vh;
-    background-size: 200%;
+    height: 100vh !important;
     transition: all 2.5s ease-in-out;
-    /* margin-top: -60px; */
+}
+@media (min-width: 768px) {
+    .hero__section {
+        background-size: 200%;
+    }
 }
 
