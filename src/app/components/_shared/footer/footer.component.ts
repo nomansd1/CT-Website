@@ -28,8 +28,9 @@ export class FooterComponent {
   
   contactInfo = [
     { label: 'PAK:', val: '+92 213 497 1995' },
-    { label: 'KSA', val: '+96 659 427 4605' },
+    { label: 'KSA:', val: '+96 659 427 4605' },
     { label: 'UAE:', val: '+971 55 548 8093' },
+    { label: 'QATAR:', val: '+974 5573 0350' },
     { label: 'Email:', val: 'sales@cloudtenants.com' },
   ]
   
