@@ -19,7 +19,7 @@ export class OurServicesComponent {
   }
   servicesGridTiles = [
     {
-      title: 'cloud based sofwtare solutions',
+      title: 'cloud based software solutions',
       imgSource: '../../../../assets/serv1.png',
       hoverImgSource: '../../../../assets/servhov1.png',
       isHovered: false
@@ -37,7 +37,7 @@ export class OurServicesComponent {
       isHovered: false 
     },
     { 
-      title: '3rd party softwares integerations', 
+      title: '3rd party softwares integrations', 
       imgSource: '../../../../assets/serv4.png', 
       hoverImgSource: '../../../../assets/servhov4.png',
       isHovered: false 
