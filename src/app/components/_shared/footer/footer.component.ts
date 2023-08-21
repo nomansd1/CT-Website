@@ -35,7 +35,7 @@ export class FooterComponent {
   ]
   
   officeInfo = [
-    { val: 'Suit No B-5/4, FL-9/6 (Junaid Plaza),' },
+    { val: 'Suite No B-5/4, FL-9/6 (Junaid Plaza),' },
     { val: 'Gulshan-E-Iqbal Block 6,' },
     { val: 'Main Rashid Minhas Road,' },
     { val: 'Karachi-75300, Pakistan.' },
