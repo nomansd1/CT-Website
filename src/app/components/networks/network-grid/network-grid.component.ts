@@ -63,13 +63,13 @@ export class NetworkGridComponent {
       flag: '../../../../assets/qatflag.jpg',
       office: 'country office',
       partner: '(JV partner)',
-      map: '../../../../assets/qatmap.png',
+      map: '../../../../assets/qtmap.png',
       address: [
         { title: 'The Eighteen Tower, 19th Floor,'},
         { title: 'Zone 69, Street 303, Building 230,'},
         { title: 'Lusail Marina, Qatar.'},
         { title: '+974 5573 0350'}
       ]
-    },
+    }
   ]
 }
