@@ -32,7 +32,7 @@ export class CustomersGridComponent {
     { imgSource: 'assets/c21.png' },
     { imgSource: 'assets/c22.png' },
     { imgSource: 'assets/c23.jpg' },
-    { imgSource: 'assets/c24.jpg' },
+    { imgSource: 'assets/c24.png' },
     { imgSource: 'assets/c25.png' },
     { imgSource: 'assets/c26.png' },
     { imgSource: 'assets/c27.png' },
@@ -54,7 +54,7 @@ export class CustomersGridComponent {
     { imgSource: 'assets/c41.jpg' },
     { imgSource: 'assets/c42.jpg' },
     { imgSource: 'assets/c43.jpg' },
-    { imgSource: 'assets/c44.jpg' },
+    // { imgSource: 'assets/c44.jpg' },
     { imgSource: 'assets/c45.jpg' },
     // { imgSource: 'assets/c46.png' }, delete
     { imgSource: 'assets/c47.jpg' },
@@ -76,7 +76,9 @@ export class CustomersGridComponent {
     { imgSource: 'assets/c62.png' },
     { imgSource: 'assets/c63.png' },
     { imgSource: 'assets/c64.jpeg' },
+    { imgSource: 'assets/c87.png' },
     { imgSource: 'assets/c65.jpeg' },
+    { imgSource: 'assets/c85.jpeg' },
     { imgSource: 'assets/c66.png' },
     { imgSource: 'assets/c67.png' },
     { imgSource: 'assets/c68.png' },
@@ -93,7 +95,6 @@ export class CustomersGridComponent {
     { imgSource: 'assets/c82.png' },
     { imgSource: 'assets/c83.png' },
     { imgSource: 'assets/c84.png' },
-    { imgSource: 'assets/c85.jpeg' },
     { imgSource: 'assets/c86.png' },
   ]
 }
