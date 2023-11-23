@@ -18,7 +18,7 @@ export class PossGridComponent {
     { url: '../../../../assets/poss9.png', title: 'delivery partner live integration' },
     { url: '../../../../assets/poss10.png', title: 'digital payments gateways/apps integration' },
     { url: '../../../../assets/poss11.png', title: 'customer module' },
-    { url: '../../../../assets/poss12.png', title: 'centralized administration for multioutlets' },
+    { url: '../../../../assets/poss12.png', title: 'centralized administration for multi-outlets' },
     { url: '../../../../assets/poss13.png', title: 'bank/gift vouchers' },
     { url: '../../../../assets/poss14.png', title: 'table manager' },
     { url: '../../../../assets/poss15.png', title: 'buffet system' },
@@ -34,7 +34,7 @@ export class PossGridComponent {
     { url: '../../../../assets/poss23.png', title: 'KDS kitchen display system' },
     { url: '../../../../assets/poss24.png', title: 'waiting list app' },
     { url: '../../../../assets/poss28.png', title: 'customer feedback module' },
-    { url: '../../../../assets/poss29.png', title: 'FACTS (Compilance/Audit Module)' },
+    { url: '../../../../assets/poss29.png', title: 'FACTS (Compliance/Audit Module)' },
   ]
   tiles3 = [
     { url: '../../../../assets/poss25.png', title: 'supply chain' },

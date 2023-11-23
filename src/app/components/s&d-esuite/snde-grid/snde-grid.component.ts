@@ -7,19 +7,19 @@ import { Component } from '@angular/core';
 })
 export class SndeGridComponent {
   tiles = [
-    { url: '../../../../assets/snde1.png', title: 'system suggested replinishment planning' },
+    { url: '../../../../assets/snde1.png', title: 'system suggested replenishment planning' },
     { url: '../../../../assets/snde2.png', title: 'X-days order bucket' },
     { url: '../../../../assets/snde3.png', title: 'distributor order portal' },
-    { url: '../../../../assets/snde4.png', title: 'reduced porcess cost' },
+    { url: '../../../../assets/snde4.png', title: 'reduced process cost' },
     { url: '../../../../assets/snde5.png', title: 'higher services levels' },
     { url: '../../../../assets/snde6.png', title: 'optimized stock levels' },
     { url: '../../../../assets/snde7.png', title: 'cost effective transportation' },
   ]
   tiles2 = [
     { url: '../../../../assets/snde8.png', title: 'bottom up approach' },
-    { url: '../../../../assets/snde9.png', title: 'accurate sales forcast based on last year sales' },
+    { url: '../../../../assets/snde9.png', title: 'accurate sales forecast based on last year sales' },
     { url: '../../../../assets/snde10.png', title: 'well managed inventory levels' },
-    { url: '../../../../assets/snde11.png', title: 'system suggested forcast' },
+    { url: '../../../../assets/snde11.png', title: 'system suggested forecast' },
     { url: '../../../../assets/snde12.png', title: 'reduced cost' },
     { url: '../../../../assets/snde13.png', title: 'efficient growth plan' },
     { url: '../../../../assets/snde14.png', title: 'no tiresome data collection' },
@@ -56,7 +56,7 @@ export class SndeGridComponent {
     { url: '../../../../assets/snde39.png', title: 'multi-channel order placement' },
     { url: '../../../../assets/snde40.png', title: 'customer feedback' },
     { url: '../../../../assets/snde41.png', title: 'less dependency of retailer on order booker for ordering' },
-    { url: '../../../../assets/snde42.png', title: 'eliminates diconnections between retailer & comopany' },
+    { url: '../../../../assets/snde42.png', title: 'eliminates disconnections between retailer & company' },
   ]
   tiles6 = [
     { url: '../../../../assets/snde43.png', title: 'distributor claims logging on portals' },
@@ -68,8 +68,8 @@ export class SndeGridComponent {
     { url: '../../../../assets/snde49.png', title: 'increased trust level of distributor' },
   ]
   tiles7 = [
-    { url: '../../../../assets/snde50.png', title: 'travel itenary management on app' },
-    { url: '../../../../assets/snde51.png', title: 'itenary approcals' },
+    { url: '../../../../assets/snde50.png', title: 'travel itinerary management on app' },
+    { url: '../../../../assets/snde51.png', title: 'itinerary approvals' },
     { url: '../../../../assets/snde52.png', title: 'advance amount application on app' },
     { url: '../../../../assets/snde53.png', title: 'GPS tracking' },
     { url: '../../../../assets/snde54.png', title: 'visits dealing' },

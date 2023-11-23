@@ -41,8 +41,8 @@ export class OurEdgesComponent implements AfterViewInit, OnInit{
   ]
   edgeGridTiles2 = [
     { title: 'Distribution Sites Implementation Experience', stats: 10000 },
-    { title: 'Higly Capable Team of Professionals', stats: 150 },
-    { title: 'Resturant & Food Outlets Implementation Experience', stats: 200 },
+    { title: 'Highly Capable Team of Professionals', stats: 150 },
+    { title: 'Restaurant & Food Outlets Implementation Experience', stats: 200 },
     { title: 'Supermarkets Implementation Experience', stats: 100 },
   ]
   edgeGridTiles3 = [

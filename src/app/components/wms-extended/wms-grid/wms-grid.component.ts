@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class WmsGridComponent {
   tiles = [
     { url: '../../../../assets/wms1.png', title: 'cloud based app' },
-    { url: '../../../../assets/wms2.png', title: 'andriod devices support' },
+    { url: '../../../../assets/wms2.png', title: 'android devices support' },
     { url: '../../../../assets/wms3.png', title: 'easy product traceability' },
     { url: '../../../../assets/wms4.png', title: 'fully monitored WH operations' },
     { url: '../../../../assets/wms5.png', title: 'reduced operational cost' },
@@ -25,7 +25,7 @@ export class WmsGridComponent {
   tiles2 = [
     { url: '../../../../assets/wms15.png', title: 'arrival' },
     { url: '../../../../assets/wms16.png', title: 'inspection' },
-    { url: '../../../../assets/wms17.png', title: 'stock recieving' },
+    { url: '../../../../assets/wms17.png', title: 'stock receiving' },
     { url: '../../../../assets/wms18.png', title: 'put away' },
     { url: '../../../../assets/wms19.png', title: 'docking' },
   ]
