@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class FinanceGridComponent {
   tiles =[
-    { url: '../../../../assets/fin1.png', title: 'Cloud-based app' },
+    { url: '../../../../assets/fin1.png', title: 'Cloud-based solution' },
     { url: '../../../../assets/fin2.png', title: 'Works in a live environment' },
     { url: '../../../../assets/fin3.png', title: 'Accounts Payable' },
     { url: '../../../../assets/fin4.png', title: 'Accounts Receivable' },

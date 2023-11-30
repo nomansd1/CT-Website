@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class HcmGridComponent {
   tiles =[
-    { url: '../../../../assets/hcm1.png', title: 'Cloud-based app' },
+    { url: '../../../../assets/hcm1.png', title: 'Cloud-based solution' },
     { url: '../../../../assets/hcm2.png', title: 'Works in a live environment' },
     { url: '../../../../assets/hcm3.png', title: 'Recruitment' },
     { url: '../../../../assets/hcm4.png', title: 'Employee Information' },
