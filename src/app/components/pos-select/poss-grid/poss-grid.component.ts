@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class PossGridComponent {
   tiles = [
-    { url: '../../../../assets/poss1.png', title: 'Cloud Based App' },
+    { url: '../../../../assets/poss1.png', title: 'Cloud-based solution' },
     { url: '../../../../assets/poss2.png', title: 'Sales Module' },
     { url: '../../../../assets/poss3.png', title: 'Multiple Payments Mode' },
     { url: '../../../../assets/poss4.png', title: 'Comprehensive Menu Setup' },
