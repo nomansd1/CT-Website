@@ -60,7 +60,7 @@ export class OurEdgesComponent implements AfterViewInit, OnInit{
           // Iterate through each CountUpDirective element and reanimate
           this.counterVisible = true
           this.countUpDirectives.forEach(countUpDirective => countUpDirective.animate());
-        }, 1200);
+        }, 2500);
     });
   }
 }
