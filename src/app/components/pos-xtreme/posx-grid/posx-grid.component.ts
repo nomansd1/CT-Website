@@ -27,6 +27,9 @@ export class PosxGridComponent {
     { url: '../../../../assets/posx18.png', title: 'WhatsApp API Integration' },
     { url: '../../../../assets/posx19.png', title: 'SMS API Integration' },
     { url: '../../../../assets/posx20.png', title: 'MS Reports/Management Dashboard' },
+    { url: 'assets/hcm15.png', title: 'Real-Time Reporting' },
+    { url: 'assets/hcm16.png', title: 'Business Intelligence Reports & Static Reports' },
+    { url: 'assets/hcm17.png', title: 'MS Power BI Dashboard' },
   ];
   
   tiles2 = [

@@ -41,6 +41,9 @@ export class ScmGridComponent {
     { url: '../../../../assets/scm15.png', title: 'Demand' },
     { url: '../../../../assets/scm16.png', title: 'Transfer In' },
     { url: '../../../../assets/scm17.png', title: 'Transfer Out' },
+    { url: 'assets/hcm15.png', title: 'Real-Time Reporting' },
+    { url: 'assets/hcm16.png', title: 'Business Intelligence Reports & Static Reports' },
+    { url: 'assets/hcm17.png', title: 'MS Power BI Dashboard' },
   ];
   
 }

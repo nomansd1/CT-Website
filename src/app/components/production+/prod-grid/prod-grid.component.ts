@@ -16,6 +16,9 @@ export class ProdGridComponent {
     { url: '../../../../assets/prod7.png', title: 'Stock Issuance' },
     { url: '../../../../assets/prod8.png', title: 'Stock Return' },
     { url: '../../../../assets/prod9.png', title: 'Daily Production' },
+    { url: 'assets/hcm15.png', title: 'Real-Time Reporting' },
+    { url: 'assets/hcm16.png', title: 'Business Intelligence Reports & Static Reports' },
+    { url: 'assets/hcm17.png', title: 'MS Power BI Dashboard' },
   ];
   
 }

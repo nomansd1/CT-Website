@@ -13,6 +13,9 @@ export class PrimaryGridComponent {
     { url: '../../../../assets/prim4.png', title: 'Dispatch' },
     { url: '../../../../assets/prim5.png', title: 'Sales Invoice' },
     { url: '../../../../assets/prim6.png', title: 'Sales Return' },
+    { url: 'assets/hcm15.png', title: 'Real-Time Reporting' },
+    { url: 'assets/hcm16.png', title: 'Business Intelligence Reports & Static Reports' },
+    { url: 'assets/hcm17.png', title: 'MS Power BI Dashboard' },
   ];
   
 }

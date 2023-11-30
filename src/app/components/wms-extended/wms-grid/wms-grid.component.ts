@@ -20,7 +20,9 @@ export class WmsGridComponent {
     { url: '../../../../assets/wms14.png', title: 'System Suggested Warehouse Space' },
     { url: '../../../../assets/wms11.png', title: 'System-Based Audit' },
     { url: '../../../../assets/wms12.png', title: 'Delivery & Collection' },
-    { url: '../../../../assets/wms10.png', title: 'Power BI Dashboard' },
+    { url: 'assets/hcm15.png', title: 'Real-Time Reporting' },
+    { url: 'assets/hcm16.png', title: 'Business Intelligence Reports & Static Reports' },
+    { url: 'assets/hcm17.png', title: 'MS Power BI Dashboard' },
   ];
   
   tiles2 = [

@@ -18,5 +18,8 @@ export class ImpGridComponent {
     { url: '../../../../assets/imp9.png', title: 'Duty & Taxes Setup' },
     { url: '../../../../assets/imp10.png', title: 'Integration with Finance Module' },
     { url: '../../../../assets/imp11.png', title: 'Ledger Maintained on Foreign & Local Currency' },
+    { url: 'assets/hcm15.png', title: 'Real-Time Reporting' },
+    { url: 'assets/hcm16.png', title: 'Business Intelligence Reports & Static Reports' },
+    { url: 'assets/hcm17.png', title: 'MS Power BI Dashboard' },
   ];  
 }

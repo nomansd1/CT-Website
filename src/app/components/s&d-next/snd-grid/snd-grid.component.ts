@@ -44,12 +44,14 @@ export class SndGridComponent {
   ];
   
   tiles2 = [
-    { url: '../../../../assets/sndn35.png', title: 'Business Intelligence Reports and Static Reports' },
     { url: '../../../../assets/sndn36.png', title: 'Morning Briefing Dashboards' },
     { url: '../../../../assets/sndn37.png', title: 'Cockpit' },
     { url: '../../../../assets/sndn38.png', title: 'Real-Time Team Performance Monitoring' },
     { url: '../../../../assets/sndn39.png', title: 'MS Power BI Dashboard' },
     { url: '../../../../assets/sndn40.png', title: 'Real-Time Productivity and Performance Evaluation' },
+    { url: '../../../../assets/sndn35.png', title: 'Business Intelligence Reports and Static Reports' },
+    { url: 'assets/hcm15.png', title: 'Real-Time Reporting' },
+    { url: 'assets/hcm17.png', title: 'MS Power BI Dashboard' },
   ];
   
 }
