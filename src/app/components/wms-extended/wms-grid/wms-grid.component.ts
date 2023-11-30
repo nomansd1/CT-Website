@@ -7,32 +7,35 @@ import { Component } from '@angular/core';
 })
 export class WmsGridComponent {
   tiles = [
-    { url: '../../../../assets/wms1.png', title: 'cloud based app' },
-    { url: '../../../../assets/wms2.png', title: 'android devices support' },
-    { url: '../../../../assets/wms3.png', title: 'easy product traceability' },
-    { url: '../../../../assets/wms4.png', title: 'fully monitored WH operations' },
-    { url: '../../../../assets/wms5.png', title: 'reduced operational cost' },
-    { url: '../../../../assets/wms6.png', title: 'accurate stock control' },
-    { url: '../../../../assets/wms7.png', title: 'automatic palletizing' },
-    { url: '../../../../assets/wms8.png', title: 'batch & expiry tracking' },
-    { url: '../../../../assets/wms9.png', title: 'OCR for batch reading' },
-    { url: '../../../../assets/wms10.png', title: 'Power BI dashboards' },
-    { url: '../../../../assets/wms11.png', title: 'system based audit' },
-    { url: '../../../../assets/wms12.png', title: 'delivery & collection' },
-    { url: '../../../../assets/wms13.png', title: 'MRP on forecast basis' },
-    { url: '../../../../assets/wms14.png', title: 'system suggested warehouse space' },
-  ]
+    { url: '../../../../assets/wms1.png', title: 'Cloud-based solution' },
+    { url: '../../../../assets/wms2.png', title: 'Android Devices Support' },
+    { url: '../../../../assets/wms3.png', title: 'Easy Product Traceability' },
+    { url: '../../../../assets/wms4.png', title: 'Fully Monitored Warehouse Operations' },
+    { url: '../../../../assets/wms5.png', title: 'Reduced Operational Cost' },
+    { url: '../../../../assets/wms6.png', title: 'Accurate Stock Control' },
+    { url: '../../../../assets/wms7.png', title: 'Automatic Palletizing' },
+    { url: '../../../../assets/wms8.png', title: 'Batch and Expiry Tracking' },
+    { url: '../../../../assets/wms9.png', title: 'OCR for Batch Reading' },
+    { url: '../../../../assets/wms13.png', title: 'MRP on Forecast Basis' },
+    { url: '../../../../assets/wms14.png', title: 'System Suggested Warehouse Space' },
+    { url: '../../../../assets/wms11.png', title: 'System-Based Audit' },
+    { url: '../../../../assets/wms12.png', title: 'Delivery & Collection' },
+    { url: '../../../../assets/wms10.png', title: 'Power BI Dashboard' },
+  ];
+  
   tiles2 = [
-    { url: '../../../../assets/wms15.png', title: 'arrival' },
-    { url: '../../../../assets/wms16.png', title: 'inspection' },
-    { url: '../../../../assets/wms17.png', title: 'stock receiving' },
-    { url: '../../../../assets/wms18.png', title: 'put away' },
-    { url: '../../../../assets/wms19.png', title: 'docking' },
-  ]
+    { url: '../../../../assets/wms15.png', title: 'Arrival' },
+    { url: '../../../../assets/wms16.png', title: 'Inspection' },
+    { url: '../../../../assets/wms17.png', title: 'Stock Receiving' },
+    { url: '../../../../assets/wms18.png', title: 'Put Away' },
+    { url: '../../../../assets/wms19.png', title: 'Docking' },
+  ];
+  
   tiles3 = [
-    { url: '../../../../assets/wms20.png', title: 'stock picking' },
-    { url: '../../../../assets/wms21.png', title: 'customer wise segregation' },
-    { url: '../../../../assets/wms22.png', title: 'digital signature on dispatch' },
-    { url: '../../../../assets/wms23.png', title: 'shipment to customer' },
-  ]
+    { url: '../../../../assets/wms20.png', title: 'Stock Picking' },
+    { url: '../../../../assets/wms21.png', title: 'Customer-wise Segregation' },
+    { url: '../../../../assets/wms22.png', title: 'Digital Signature on Dispatch' },
+    { url: '../../../../assets/wms23.png', title: 'Shipment to Customer' },
+  ];
+  
 }
