@@ -28,7 +28,7 @@ export class HcmGridComponent {
   tiles2 = [
     { url: '../../../../assets/hcm18.png', title: 'Employee Information' },
     { url: '../../../../assets/hcm19.png', title: 'Month-wise Salary Summary' },
-    { url: '../../../../assets/hcm20.png', title: 'Leaves Info' },
+    { url: '../../../../assets/hcm20.png', title: 'Leaves Application' },
     { url: '../../../../assets/hcm21.png', title: 'Attendance Review' },
     { url: '../../../../assets/hcm22.png', title: 'Attendance Adjustments' },
     { url: '../../../../assets/hcm23.png', title: 'PF Ledger' },
