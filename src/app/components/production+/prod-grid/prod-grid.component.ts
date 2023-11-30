@@ -6,15 +6,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./prod-grid.component.css']
 })
 export class ProdGridComponent {
-  tiles =[
-    { url: '../../../../assets/prod1.png', title: 'bill of material' },
-    { url: '../../../../assets/prod2.png', title: 'production plan' },
-    { url: '../../../../assets/prod3.png', title: 'production order' },
-    { url: '../../../../assets/prod4.png', title: 'demand' },
-    { url: '../../../../assets/prod5.png', title: 'product costing' },
-    { url: '../../../../assets/prod6.png', title: 'labour costing' },
-    { url: '../../../../assets/prod7.png', title: 'stock issuance' },
-    { url: '../../../../assets/prod8.png', title: 'stock return' },
-    { url: '../../../../assets/prod9.png', title: 'daily production' },
-  ]
+  tiles = [
+    { url: '../../../../assets/prod1.png', title: 'Bill of Material' },
+    { url: '../../../../assets/prod2.png', title: 'Production Plan' },
+    { url: '../../../../assets/prod3.png', title: 'Production Order' },
+    { url: '../../../../assets/prod4.png', title: 'Demand' },
+    { url: '../../../../assets/prod5.png', title: 'Product Costing' },
+    { url: '../../../../assets/prod6.png', title: 'Labour Costing' },
+    { url: '../../../../assets/prod7.png', title: 'Stock Issuance' },
+    { url: '../../../../assets/prod8.png', title: 'Stock Return' },
+    { url: '../../../../assets/prod9.png', title: 'Daily Production' },
+  ];
+  
 }
