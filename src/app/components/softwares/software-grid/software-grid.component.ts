@@ -9,7 +9,7 @@ export class SoftwareGridComponent {
 
   snDproducts = [
     { 
-      desc: 'Our Sales & Distribution Software provide tools and features to enhance Sales Efficiency, Track Leads and Opportunities,Manage Customer Relationships, Automate Sales Tasks, and Analyze Sales & Distribution Performance.', 
+      desc: 'Cloud Tenants Sales & Distribution Software provide tools and features to enhance Sales Efficiency, Track Leads and Opportunities, Manage Customer Relationships, Automate Sales Tasks, and Analyze Sales & Distribution Performance.', 
       gridImgSource: '../../.././../assets/sndnextgrid.png', 
       imgSource: '../../../../assets/sndnext.png',
       btnColor: 'bg-[#0A9AC8]',
@@ -99,7 +99,7 @@ export class SoftwareGridComponent {
       url: 'scm'
     },
     { 
-      desc: 'Cloud Tenants HCM+ (Human Capital Management) solutions offers end-to-end Employee Lifecycle Management. It consist of integeration in HR, Time Adherence, Attendance, Payroll, Scheduling and Other processes of HR and Payroll Management.', 
+      desc: 'Cloud Tenants HCM+ (Human Capital Management) solutions offers end-to-end Employee Lifecycle Management. t manages Recruitment, Detailed HR Information, Time & Attendance, Payroll and other processes.', 
       gridImgSource: '../../.././../assets/hcmgrid.png', 
       imgSource: '../../../../assets/hcm.png',
       btnColor: 'bg-[#0097A7]',
@@ -113,7 +113,7 @@ export class SoftwareGridComponent {
       url: 'hcm'
     },
     { 
-      desc: 'Our Finance+ Module manages the financial transactions and accounting activities of an Organizations, including Genral Ledger, Accounts Payable, Accounts Receivable, Cash Management, Budget and Forecasting, Tax Management and Fixed Assets.', 
+      desc: 'Cloud tenants Finance+ Module manages the Financial transactions and Accounting activities, including General Ledger, Accounts Payable, Accounts Receivable, Cash Management,Fixed Assets Management.', 
       gridImgSource: '../../.././../assets/financegrid.png', 
       imgSource: '../../../../assets/finance.png',
       btnColor: 'bg-[#CDDC39]',
@@ -127,7 +127,7 @@ export class SoftwareGridComponent {
       url: 'finance'
     },
     { 
-      desc: 'Our Production Module refers to a category of Software tools & Systems that are designed to assist businesses in Managing, optimizing their production processes. It helps you Streamline & Automate various aspects of Production such as Planning, Scheduling, Inventory Management, Quality Control and Reporting.', 
+      desc: 'Cloud Tenants Production+ Module is an excellent software module for businesses engaged in production of various goods.It Automates & Optimizes Planning, Scheduling, Inventory Management, Quality Control and Real Time Reporting for effective production management.', 
       gridImgSource: '../../.././../assets/productiongrid.png', 
       imgSource: '../../../../assets/production.png',
       btnColor: 'bg-[#4C8EDF]',
@@ -141,7 +141,7 @@ export class SoftwareGridComponent {
       url: 'production'
     },
     { 
-      desc: 'Cloud Tenants Import  Software Solution manages Landed Cost Tracking, Duty and Taxes, LC Opening/Arrival and Import Good Received Note (GRN).', 
+      desc: 'Cloud Tenants Import+ module manages Landed Cost Tracking, Duty and Taxes, LC Opening/Arrival and Import Good Received Note (GRN) and others.', 
       gridImgSource: '../../.././../assets/importgrid.png', 
       imgSource: '../../../../assets/import.png',
       btnColor: 'bg-[#105AB6]',
@@ -155,7 +155,7 @@ export class SoftwareGridComponent {
       url: 'import'
     },
     { 
-      desc: 'Cloud Tenants Primary Sales Software can be used to automate and monitor end-to-end primary sales activities which includes interaction between Manufacturers and Dealers. It consist of sending order to Manufacturers, Prepare, Dispatch and Receive Cash/Cheque and Delivery of Products to Dealer\'s end.', 
+      desc: 'Cloud Tenants Primary Sales Module provides end-to-end Sales operations management directly between manufacturer/importer and customer. It covers receiving Order from customer to delivery of order to customer.', 
       gridImgSource: '../../.././../assets/primarygrid.png', 
       imgSource: '../../../../assets/primary.png',
       btnColor: 'bg-[#00CCFF]',
