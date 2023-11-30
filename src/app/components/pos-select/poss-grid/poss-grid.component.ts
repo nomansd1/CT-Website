@@ -22,7 +22,7 @@ export class PossGridComponent {
     { url: '../../../../assets/poss13.png', title: 'Bank/Gift Vouchers' },
     { url: '../../../../assets/poss14.png', title: 'Table Manager' },
     { url: '../../../../assets/poss15.png', title: 'Buffet System' },
-    { url: '../../../../assets/poss16.png', title: 'MS Power BI Dashboards' },
+    { url: '../../../../assets/poss16.png', title: 'MS Power BI Dashboard' },
     { url: '../../../../assets/poss17.png', title: 'Integration with Government Tax Portal' },
     { url: '../../../../assets/poss18.png', title: 'WhatsApp Messaging' },
     { url: '../../../../assets/poss19.png', title: 'Call Centre Module' },
