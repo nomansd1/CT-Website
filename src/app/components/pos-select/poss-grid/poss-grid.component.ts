@@ -6,39 +6,42 @@ import { Component } from '@angular/core';
   styleUrls: ['./poss-grid.component.css']
 })
 export class PossGridComponent {
-  tiles =[
-    { url: '../../../../assets/poss1.png', title: 'cloud based app' },
-    { url: '../../../../assets/poss2.png', title: 'sales module' },
-    { url: '../../../../assets/poss3.png', title: 'multiple payments mode' },
-    { url: '../../../../assets/poss4.png', title: 'comprehensive menu setup' },
-    { url: '../../../../assets/poss5.png', title: 'discounts & combos' },
-    { url: '../../../../assets/poss6.png', title: 'delivery module' },
-    { url: '../../../../assets/poss7.png', title: 'take away' },
-    { url: '../../../../assets/poss8.png', title: 'dine in' },
-    { url: '../../../../assets/poss9.png', title: 'delivery partner live integration' },
-    { url: '../../../../assets/poss10.png', title: 'digital payments gateways/apps integration' },
-    { url: '../../../../assets/poss11.png', title: 'customer module' },
-    { url: '../../../../assets/poss12.png', title: 'centralized administration for multi-outlets' },
-    { url: '../../../../assets/poss13.png', title: 'bank/gift vouchers' },
-    { url: '../../../../assets/poss14.png', title: 'table manager' },
-    { url: '../../../../assets/poss15.png', title: 'buffet system' },
-    { url: '../../../../assets/poss16.png', title: 'MS power BI dashboards' },
-    { url: '../../../../assets/poss17.png', title: 'integration with government tax portal' },
-    { url: '../../../../assets/poss18.png', title: 'whatsapp messaging' },
-    { url: '../../../../assets/poss19.png', title: 'call centre module' },
-  ]
+  tiles = [
+    { url: '../../../../assets/poss1.png', title: 'Cloud Based App' },
+    { url: '../../../../assets/poss2.png', title: 'Sales Module' },
+    { url: '../../../../assets/poss3.png', title: 'Multiple Payments Mode' },
+    { url: '../../../../assets/poss4.png', title: 'Comprehensive Menu Setup' },
+    { url: '../../../../assets/poss5.png', title: 'Discounts & Combos' },
+    { url: '../../../../assets/poss6.png', title: 'Delivery Module' },
+    { url: '../../../../assets/poss7.png', title: 'Take Away' },
+    { url: '../../../../assets/poss8.png', title: 'Dine In' },
+    { url: '../../../../assets/poss9.png', title: 'Delivery Partner Live Integration' },
+    { url: '../../../../assets/poss10.png', title: 'Digital Payments Gateways/Apps Integration' },
+    { url: '../../../../assets/poss11.png', title: 'Customer Module' },
+    { url: '../../../../assets/poss12.png', title: 'Centralized Administration for Multi-Outlets' },
+    { url: '../../../../assets/poss13.png', title: 'Bank/Gift Vouchers' },
+    { url: '../../../../assets/poss14.png', title: 'Table Manager' },
+    { url: '../../../../assets/poss15.png', title: 'Buffet System' },
+    { url: '../../../../assets/poss16.png', title: 'MS Power BI Dashboards' },
+    { url: '../../../../assets/poss17.png', title: 'Integration with Government Tax Portal' },
+    { url: '../../../../assets/poss18.png', title: 'WhatsApp Messaging' },
+    { url: '../../../../assets/poss19.png', title: 'Call Centre Module' },
+  ];
+  
   tiles2 = [
-    { url: '../../../../assets/poss20.png', title: 'recipe management' },
-    { url: '../../../../assets/poss21.png', title: 'TAB order taking' },
-    { url: '../../../../assets/poss22.png', title: 'comprehensive loyalty module' },
-    { url: '../../../../assets/poss23.png', title: 'KDS kitchen display system' },
-    { url: '../../../../assets/poss24.png', title: 'waiting list app' },
-    { url: '../../../../assets/poss28.png', title: 'customer feedback module' },
+    { url: '../../../../assets/poss20.png', title: 'Recipe Management' },
+    { url: '../../../../assets/poss21.png', title: 'TAB Order Taking' },
+    { url: '../../../../assets/poss22.png', title: 'Comprehensive Loyalty Module' },
+    { url: '../../../../assets/poss23.png', title: 'KDS Kitchen Display System' },
+    { url: '../../../../assets/poss24.png', title: 'Waiting List App' },
+    { url: '../../../../assets/poss28.png', title: 'Customer Feedback Module' },
     { url: '../../../../assets/poss29.png', title: 'FACTS (Compliance/Audit Module)' },
-  ]
+  ];
+  
   tiles3 = [
-    { url: '../../../../assets/poss25.png', title: 'supply chain' },
-    { url: '../../../../assets/poss26.png', title: 'GL/finance' },
-    { url: '../../../../assets/poss27.png', title: 'HR/payroll' },
-  ]
+    { url: '../../../../assets/poss25.png', title: 'Supply Chain' },
+    { url: '../../../../assets/poss26.png', title: 'GL/Finance' },
+    { url: '../../../../assets/poss27.png', title: 'HR/Payroll' },
+  ];
+  
 }
