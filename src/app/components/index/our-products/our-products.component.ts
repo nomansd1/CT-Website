@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class OurProductsComponent {
   products = [
     { 
-      desc: 'Our Sales & Distribution Software provide tools and features to enhance Sales Efficiency, Track Leads and Opportunities, Manage Customer Relationships, Automate Sales Tasks, and Analyze Sales & Distribution Performance.', 
+      desc: 'Cloud Tenants Sales & Distribution Software provide tools and features to enhance Sales Efficiency, Track Leads and Opportunities, Manage Customer Relationships, Automate Sales Tasks, and Analyze Sales & Distribution Performance.', 
       gridImgSource: '../../.././../assets/sndnextgrid.png', 
       imgSource: '../../../../assets/sndnext.png',
       btnColor: 'bg-[#0A9AC8]',
@@ -22,7 +22,7 @@ export class OurProductsComponent {
       url: 's&d%next'
     },
     { 
-      desc: 'WMS Extended is a highly Efficient & Effective software to manage Inventory and Stock movement in the Warehouse. The Software is designed to manage extensive operations of Warehouse, including Inventory Management, Storage, and Movement of goods.', 
+      desc: 'Cloud Tenants WMS Extended is a highly Efficient & Effective software to manage Inventory and Stock movement in the Warehouse. The Software is designed to manage extensive operations of Warehouse, including Inventory Management, Storage, and Movement of goods.', 
       gridImgSource: '../../.././../assets/wmsextendgrid.png', 
       imgSource: '../../../../assets/wmsextend.png',
       btnColor: 'bg-[#048CA9]',
@@ -36,7 +36,7 @@ export class OurProductsComponent {
       url: 'wms'
     },
     { 
-      desc: 'Leading Point of Sale Solution for Small Retail Shops to Chain of Supermarkets. It serves as the Central Hub for processing Sales, Managing Inventory, and providing an overall Seamless Customer Experience. ', 
+      desc: 'Cloud Tenants Leading Point of Sale Solution for Small Retail Shops to Chain of Supermarkets. It serves as the Central Hub for processing Sales, Managing Inventory, and providing an overall Seamless Customer Experience. ', 
       gridImgSource: '../../.././../assets/posgrid.png', 
       imgSource: '../../../../assets/pos.png',
       btnColor: 'bg-[#FB8C00]',
@@ -50,7 +50,7 @@ export class OurProductsComponent {
       url: 'pos%xtreme'
     },
     { 
-      desc: 'Leading Point of Sale Solution for Food Kiosk to Fine Dining Restaurants Chain. POS Select, is designed specifically for the food service industry to manage Restaurant Operations, Streamline Order Processing, and Enhancing Overall Dining Experience. ', 
+      desc: 'Cloud Tenants Leading Point of Sale Solution for Food Kiosk to Fine Dining Restaurants Chain. POS Select, is designed specifically for the food service industry to manage Restaurant Operations, Streamline Order Processing, and Enhancing Overall Dining Experience. ', 
       gridImgSource: '../../.././../assets/possgrid.png', 
       imgSource: '../../../../assets/poss.png',
       btnColor: 'bg-[#769F42]',
