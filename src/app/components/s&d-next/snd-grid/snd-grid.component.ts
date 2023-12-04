@@ -23,7 +23,7 @@ export class SndGridComponent {
     { url: '../../../../assets/sndn14.png', title: 'Delivery Scheduling and Tracking' },
     { url: '../../../../assets/sndn15.png', title: 'Division Wise Customer Profile Option' },
     { url: '../../../../assets/sndn30.png', title: 'Division Wise Sales Management' },
-    { url: '../../../../assets/sndn31.png', title: 'Shop Visit Plan Route' },
+    { url: '../../../../assets/sndn31.png', title: 'Shops Visit Plan' },
     { url: '../../../../assets/sndn32.png', title: 'Multi-Channel Sales Management' },
     { url: '../../../../assets/sndn33.png', title: 'Credit & Receivables' },
     { url: '../../../../assets/sndn34.png', title: 'Banking' },

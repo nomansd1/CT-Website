@@ -47,7 +47,8 @@ export class OurEdgesComponent implements AfterViewInit, OnInit{
     { title: 'Supermarkets Implementation Experience', stats: 100 },
   ]
   edgeGridTiles3 = [
-    { title: 'Offices in Pakistan & Growing...', stats: 11 },
+    { title: 'Offices in Pakistan & Growing', stats: 11 },
+    { title: 'Global Offices & Growing', stats: 3 },
     { title: 'e.suite Modules for S&D Business Optimization', stats: 7 },
     { title: 'ERP Modules Suite', stats: 6 },
   ]

@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class SupportGridComponent {
   services = [
     { title: 'Unlimited Support Tickets', url: '../../../../assets/sp1.png' },
-    { title: 'Customizations in purchased modules', url: '../../../../assets/sp2.png' },
+    { title: 'Customizations in Modules', url: '../../../../assets/sp2.png' },
   ]
   supportMediums = [
     { title: 'service desk portal', url: '../../../../assets/sp3.png' },
