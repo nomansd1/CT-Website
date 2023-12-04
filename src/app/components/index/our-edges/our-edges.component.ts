@@ -31,6 +31,7 @@ export class OurEdgesComponent implements AfterViewInit, OnInit{
 
   ngAfterViewInit(): void {
     this.onSlideChange();
+    this.slideToOne();
   }
 
   edgeGridTiles1 = [
@@ -53,6 +54,9 @@ export class OurEdgesComponent implements AfterViewInit, OnInit{
   onSwiper(swiper) {
     console.log(swiper);
   }
+  slideToOne() {
+    this.swiperContainer.nativeElement.swiper.slideTo(1)
+  }
   onSlideChange() {
     this.swiperContainer.nativeElement.addEventListener('slidechange', (event: Event) => {
       this.counterVisible = false;  
@@ -60,7 +64,7 @@ export class OurEdgesComponent implements AfterViewInit, OnInit{
           // Iterate through each CountUpDirective element and reanimate
           this.counterVisible = true
           this.countUpDirectives.forEach(countUpDirective => countUpDirective.animate());
-        }, 2500);
+        }, 500);
     });
   }
 }
