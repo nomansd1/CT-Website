@@ -26,7 +26,7 @@ export class ScmGridComponent {
     { url: '../../../../assets/scm17.png', title: 'Transfer Out' },
     { url: '../../../../assets/scm18.png', title: 'Scanning Option' },
     { url: '../../../../assets/scm19.png', title: 'Pallet, Location, Batch-wise Stock Position' },
-    { url: '../../../../assets/scm20.png', title: 'Accurate Stock Control' },
+    { url: '../../../../assets/scm11.png', title: 'Accurate Stock Control' },
     { url: '../../../../assets/scm21.png', title: 'Easy Product Traceability' },
     { url: '../../../../assets/scm22.png', title: 'HHT Stock Audit' },
     { url: '../../../../assets/scm23.png', title: 'Power BI for Management' },
@@ -34,7 +34,7 @@ export class ScmGridComponent {
   
   tiles2 = [
     { url: '../../../../assets/scm19.png', title: 'Purchase Requisition' },
-    { url: '../../../../assets/scm20.png', title: 'Purchase Order' },
+    { url: '../../../../assets/scm11.png', title: 'Purchase Order' },
     { url: '../../../../assets/scm21.png', title: 'GRN' },
     { url: '../../../../assets/scm18.png', title: 'Goods Received' },
     { url: '../../../../assets/scm22.png', title: 'HHT Stock Audit' },
