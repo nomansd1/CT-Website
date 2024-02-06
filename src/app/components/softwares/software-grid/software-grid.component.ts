@@ -20,7 +20,7 @@ export class SoftwareGridComponent {
       flexEnd: true,
       navArrow: false,
       label: 'S&D Next',
-      url: 's&d%next'
+      url: 'snd-next'
     },
     { 
       desc: 'Cloud Tenants S&D e.suite takes you to the next level of Business Optimization. It includes DBRS, Sales Forecast, Distribution Claims, Sales Incentives and Merchandising Softwares that can drive your business towards success.', 
@@ -34,7 +34,7 @@ export class SoftwareGridComponent {
       flexEnd: false,
       navArrow: true,
       label: 'S&D e.suite',
-      url: 's&d%esuite'
+      url: 'snd-esuite'
     },
   ]
 
@@ -51,7 +51,7 @@ export class SoftwareGridComponent {
       flexEnd: false,
       navArrow: false,
       label: 'POS Xtreme',
-      url: 'pos%xtreme'
+      url: 'pos-xtreme'
     },
     { 
       desc: 'Cloud Tenants Leading Point of Sale Solution for Food Kiosk to Fine Dining Restaurants Chain. POS Select, is designed specifically for the food service industry to manage Restaurant Operations, Streamline Order Processing, and Enhancing Overall Dining Experience. ', 
@@ -65,7 +65,7 @@ export class SoftwareGridComponent {
       flexEnd: true,
       navArrow: true,
       label: 'POS Select',
-      url: 'pos%select'
+      url: 'pos-select'
     }
   ]
 

@@ -19,7 +19,7 @@ export class OurProductsComponent {
       flexEnd: true,
       navArrow: true,
       label: 'S&D Next',
-      url: 's&d%next'
+      url: 'snd-next'
     },
     { 
       desc: 'Cloud Tenants WMS Extended is a highly Efficient & Effective software to manage Inventory and Stock movement in the Warehouse. The Software is designed to manage extensive operations of Warehouse, including Inventory Management, Storage, and Movement of goods...', 
@@ -47,7 +47,7 @@ export class OurProductsComponent {
       flexEnd: true,
       navArrow: true,
       label: 'POS Xtreme',
-      url: 'pos%xtreme'
+      url: 'pos-xtreme'
     },
     { 
       desc: 'Cloud Tenants Leading Point of Sale Solution for Food Kiosk to Fine Dining Restaurants Chain. POS Select, is designed specifically for the food service industry to manage Restaurant Operations, Streamline Order Processing, and Enhancing Overall Dining Experience...', 
@@ -61,7 +61,7 @@ export class OurProductsComponent {
       flexEnd: false,
       navArrow: false,
       label: 'POS Select',
-      url: 'pos%select'
+      url: 'pos-select'
     }
   ]
 }

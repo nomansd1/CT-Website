@@ -1,104 +1,114 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-		<!--	created with www.mysitemapgenerator.com	-->
-		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url>
-	<loc>https://www.cloudtenants.com/</loc>
-	<lastmod>2024-02-06T03:46:20+01:00</lastmod>
-	<priority>1.0</priority>
-</url>
-<url>
-	<loc>https://www.cloudtenants.com/technologies</loc>
-	<lastmod>2024-02-06T03:46:20+01:00</lastmod>
-	<priority>1.0</priority>
-</url>
-<url>
-	<loc>https://www.cloudtenants.com/support</loc>
-	<lastmod>2024-02-06T03:46:20+01:00</lastmod>
-	<priority>1.0</priority>
-</url>
-<url>
-	<loc>https://www.cloudtenants.com/boarding</loc>
-	<lastmod>2024-02-06T03:46:20+01:00</lastmod>
-	<priority>1.0</priority>
-</url>
-<url>
-	<loc>https://www.cloudtenants.com/networks</loc>
-	<lastmod>2024-02-06T03:46:20+01:00</lastmod>
-	<priority>1.0</priority>
-</url>
-<url>
-	<loc>https://www.cloudtenants.com/about</loc>
-	<lastmod>2024-02-06T03:46:20+01:00</lastmod>
-	<priority>1.0</priority>
-</url>
-<url>
-	<loc>https://www.cloudtenants.com/careers</loc>
-	<lastmod>2024-02-06T03:46:20+01:00</lastmod>
-	<priority>1.0</priority>
-</url>
-<url>
-	<loc>https://www.cloudtenants.com/demo</loc>
-	<lastmod>2024-02-06T03:46:20+01:00</lastmod>
-	<priority>1.0</priority>
-</url>
-<url>
-	<loc>https://www.cloudtenants.com/partner</loc>
-	<lastmod>2024-02-06T03:46:20+01:00</lastmod>
-	<priority>1.0</priority>
-</url>
-<url>
-	<loc>https://www.cloudtenants.com/alliances</loc>
-	<lastmod>2024-02-06T03:46:20+01:00</lastmod>
-	<priority>1.0</priority>
-</url>
-<url>
-	<loc>https://www.cloudtenants.com/softwares</loc>
-	<lastmod>2024-02-06T03:46:20+01:00</lastmod>
-	<priority>1.0</priority>
-</url>
-<url>
-	<loc>https://www.cloudtenants.com/softwares/finance</loc>
-	<lastmod>2024-02-06T03:46:20+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.cloudtenants.com/softwares/hcm</loc>
-	<lastmod>2024-02-06T03:46:20+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.cloudtenants.com/softwares/import</loc>
-	<lastmod>2024-02-06T03:46:20+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.cloudtenants.com/softwares/production</loc>
-	<lastmod>2024-02-06T03:46:20+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.cloudtenants.com/softwares/primary</loc>
-	<lastmod>2024-02-06T03:46:20+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.cloudtenants.com/softwares/scm</loc>
-	<lastmod>2024-02-06T03:46:20+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.cloudtenants.com/softwares/wms</loc>
-	<lastmod>2024-02-06T03:46:20+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.cloudtenants.com/softwares/om</loc>
-	<lastmod>2024-02-06T03:46:20+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://www.cloudtenants.com/customers</loc>
-	<lastmod>2024-02-06T03:46:20+01:00</lastmod>
-	<priority>1.0</priority>
-</url>
+<!--	created with www.mysitemapgenerator.com	-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<url>
+		<loc>https://www.cloudtenants.com/</loc>
+		<lastmod>2024-02-06T03:46:20+01:00</lastmod>
+		<priority>1.0</priority>
+	</url>
+	<url>
+		<loc>https://www.cloudtenants.com/technologies</loc>
+		<lastmod>2024-02-06T03:46:20+01:00</lastmod>
+		<priority>1.0</priority>
+	</url>
+	<url>
+		<loc>https://www.cloudtenants.com/support</loc>
+		<lastmod>2024-02-06T03:46:20+01:00</lastmod>
+		<priority>1.0</priority>
+	</url>
+	<url>
+		<loc>https://www.cloudtenants.com/boarding</loc>
+		<lastmod>2024-02-06T03:46:20+01:00</lastmod>
+		<priority>1.0</priority>
+	</url>
+	<url>
+		<loc>https://www.cloudtenants.com/networks</loc>
+		<lastmod>2024-02-06T03:46:20+01:00</lastmod>
+		<priority>1.0</priority>
+	</url>
+	<url>
+		<loc>https://www.cloudtenants.com/about</loc>
+		<lastmod>2024-02-06T03:46:20+01:00</lastmod>
+		<priority>1.0</priority>
+	</url>
+	<url>
+		<loc>https://www.cloudtenants.com/careers</loc>
+		<lastmod>2024-02-06T03:46:20+01:00</lastmod>
+		<priority>1.0</priority>
+	</url>
+	<url>
+		<loc>https://www.cloudtenants.com/demo</loc>
+		<lastmod>2024-02-06T03:46:20+01:00</lastmod>
+		<priority>1.0</priority>
+	</url>
+	<url>
+		<loc>https://www.cloudtenants.com/partner</loc>
+		<lastmod>2024-02-06T03:46:20+01:00</lastmod>
+		<priority>1.0</priority>
+	</url>
+	<url>
+		<loc>https://www.cloudtenants.com/alliances</loc>
+		<lastmod>2024-02-06T03:46:20+01:00</lastmod>
+		<priority>1.0</priority>
+	</url>
+	<url>
+		<loc>https://www.cloudtenants.com/softwares</loc>
+		<lastmod>2024-02-06T03:46:20+01:00</lastmod>
+		<priority>1.0</priority>
+	</url>
+	<url>
+		<loc>https://www.cloudtenants.com/softwares/snd-esuite</loc>
+		<lastmod>2024-02-06T03:46:20+01:00</lastmod>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://www.cloudtenants.com/softwares/snd-next</loc>
+		<lastmod>2024-02-06T03:46:20+01:00</lastmod>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://www.cloudtenants.com/softwares/finance</loc>
+		<lastmod>2024-02-06T03:46:20+01:00</lastmod>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://www.cloudtenants.com/softwares/hcm</loc>
+		<lastmod>2024-02-06T03:46:20+01:00</lastmod>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://www.cloudtenants.com/softwares/import</loc>
+		<lastmod>2024-02-06T03:46:20+01:00</lastmod>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://www.cloudtenants.com/softwares/production</loc>
+		<lastmod>2024-02-06T03:46:20+01:00</lastmod>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://www.cloudtenants.com/softwares/primary</loc>
+		<lastmod>2024-02-06T03:46:20+01:00</lastmod>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://www.cloudtenants.com/softwares/scm</loc>
+		<lastmod>2024-02-06T03:46:20+01:00</lastmod>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://www.cloudtenants.com/softwares/wms</loc>
+		<lastmod>2024-02-06T03:46:20+01:00</lastmod>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://www.cloudtenants.com/softwares/om</loc>
+		<lastmod>2024-02-06T03:46:20+01:00</lastmod>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://www.cloudtenants.com/customers</loc>
+		<lastmod>2024-02-06T03:46:20+01:00</lastmod>
+		<priority>1.0</priority>
+	</url>
 </urlset>
