@@ -23,6 +23,7 @@ export class FooterComponent {
     { title: 'Softwares', url: 'softwares' },
     { title: 'Careers', url: 'careers' },
     { title: 'Become a partner', url: 'partner' },
+    { title: 'Privacy Policy', url: '' },
     { title: "FAQ's", url: '' },
   ]
   
