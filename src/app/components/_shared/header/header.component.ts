@@ -1,4 +1,5 @@
 import { Component, HostListener, ElementRef, Renderer2, Output, EventEmitter } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-header',
@@ -12,7 +13,8 @@ export class HeaderComponent {
   fixedHeader = false;
   absoluteHeader = true;
   lastScrollTop = 0;
-  hideTop = false
+  hideTop = false;
+
   @Output() toggleSidebar = new EventEmitter<void>();
 
   navLinks = [
@@ -26,12 +28,16 @@ export class HeaderComponent {
   ]
 
 
-  constructor(private elementRef: ElementRef, private renderer: Renderer2) {}
+  constructor(
+    private elementRef: ElementRef, 
+    private renderer: Renderer2,
+    public router: Router
+  ) {}
 
   @HostListener('window:scroll', [])
   onWindowScroll() {
     const scrollHeight = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
-    if (scrollHeight > 70) {
+    if (scrollHeight > 70 || this.router.url == '/faq') {
       this.header = true;
       this.hideTop = true
     }

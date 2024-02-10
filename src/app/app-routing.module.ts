@@ -25,6 +25,7 @@ import { ScmLayoutComponent } from './components/scn+/scm-layout/scm-layout.comp
 import { WmsLayoutComponent } from './components/wms-extended/wms-layout/wms-layout.component';
 import { CustomersLayoutComponent } from './components/customers/customers-layout/customers-layout.component';
 import { OmLayoutComponent } from './components/other-modules/om-layout/om-layout.component';
+import { FaqsLayoutComponent } from './components/faqs/faqs-layout/faqs-layout.component';
 
 const routes: Routes = [
   { path: '', component: IndexLayoutComponent },
@@ -52,6 +53,7 @@ const routes: Routes = [
   { path: 'softwares/wms', component: WmsLayoutComponent },
   { path: 'softwares/om', component: OmLayoutComponent },
   { path: 'customers', component: CustomersLayoutComponent },
+  { path: 'faq', component: FaqsLayoutComponent },
 ];
 
 @NgModule({

@@ -1,5 +1,5 @@
 <header
-    [ngClass]="{ 'bg-[#211C5D] top-0': header,'fixed top-0': fixedHeader, 'absolute': absoluteHeader, '-top-full': hideTop}"
+    [ngClass]="{ 'bg-[#211C5D] top-0': header,'fixed top-0': fixedHeader, 'absolute': absoluteHeader, '-top-full': hideTop, 'bg-[#211C5D]': router.url == '/faq'}"
     class="z-[999] px-4 lg:px-6 py-2.5 left-0 right-0 transition-all duration-700 ease-in-out">
     <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
         <a routerLink="" class="flex items-center">

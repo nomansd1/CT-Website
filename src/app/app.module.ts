@@ -94,6 +94,7 @@ import { NgSelectModule } from '@ng-select/ng-select';
 import { OmLayoutComponent } from './components/other-modules/om-layout/om-layout.component';
 import { OmBannerComponent } from './components/other-modules/om-banner/om-banner.component';
 import { OmGridComponent } from './components/other-modules/om-grid/om-grid.component';
+import { FaqsLayoutComponent } from './components/faqs/faqs-layout/faqs-layout.component';
 
 @NgModule({
   declarations: [
@@ -183,6 +184,7 @@ import { OmGridComponent } from './components/other-modules/om-grid/om-grid.comp
     OmLayoutComponent,
     OmBannerComponent,
     OmGridComponent,
+    FaqsLayoutComponent,
   ],
   imports: [
     BrowserModule,

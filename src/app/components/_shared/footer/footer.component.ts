@@ -24,7 +24,7 @@ export class FooterComponent {
     { title: 'Careers', url: 'careers' },
     { title: 'Become a partner', url: 'partner' },
     { title: 'Privacy Policy', url: '' },
-    { title: "FAQ's", url: '' },
+    { title: "FAQ's", url: 'faq' },
   ]
   
   contactInfo = [
