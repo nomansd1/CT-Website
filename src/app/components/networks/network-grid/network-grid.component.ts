@@ -16,7 +16,7 @@ export class NetworkGridComponent {
       address: [
         { title: 'Suite No B-5/4. FL-9/6 (Junaid Plaza),' },
         { title: 'Gulshan-E-Iqbal Block 6,' },
-        { title: 'Mian Rashid Minhas Road,' },
+        { title: 'Main Rashid Minhas Road,' },
         { title: 'Karachi-75300, Pakistan.' },
         { title: '+92 21 34971995' }
       ],

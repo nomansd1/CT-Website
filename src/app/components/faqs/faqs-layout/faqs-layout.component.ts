@@ -98,7 +98,7 @@ export class FaqsLayoutComponent {
       listYN: true,
       list: [
         { name: 'Karachi (Head Office)' },
-        { name: 'Lahore (Regional Office' },
+        { name: 'Lahore (Regional Office)' },
         { name: 'Multan' },
         { name: 'Sukkur' },
         { name: 'Peshawar' },
